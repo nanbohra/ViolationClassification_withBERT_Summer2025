@@ -1,0 +1,7596 @@
+[
+  {
+    "ID": "ID_1",
+    "Description": "Improper reset logic causes signal to remain constant",
+    "Tag": [
+      "RESET_ISSUE",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_2",
+    "Description": "Circular logic path eliminated but does not impact design",
+    "Tag": [
+      "COMB_LOOP",
+      "UNUSED_LOGIC",
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_3",
+    "Description": "Macro used in RTL block without proper expansion",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_4",
+    "Description": "Synthesis tool identified unused registered logic",
+    "Tag": [
+      "REGISTER_USAGE",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_5",
+    "Description": "FSM condition causes unreachable state",
+    "Tag": [
+      "FSM_PROBLEM",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_6",
+    "Description": "Signal name conflicts with reserved keyword",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_7",
+    "Description": "Non-synthesizable behavior detected in procedural logic",
+    "Tag": [
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_8",
+    "Description": "Signal toggles once and then freezes",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_9",
+    "Description": "Incorrect use of <= in non-clocked block",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_10",
+    "Description": "Improper macro usage in conditional logic",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_11",
+    "Description": "Width of result signal incompatible with source",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH"
+    ]
+  },
+  {
+    "ID": "ID_12",
+    "Description": "Sequential element inferred from always block",
+    "Tag": [
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_13",
+    "Description": "Sequential block lacks proper clock edge specification",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_14",
+    "Description": "Timing uncertainty due to unsynchronized assignments",
+    "Tag": [
+      "RACE_CONDITION"
+    ]
+  },
+  {
+    "ID": "ID_15",
+    "Description": "FSM contains uninitialized state variable",
+    "Tag": [
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_16",
+    "Description": "Nonblocking assignment leads to simulation mismatch",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_17",
+    "Description": "Macro definition includes unsupported syntax",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_18",
+    "Description": "Combinational logic produces constant output",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_19",
+    "Description": "Floating-point comparison not supported in synthesis",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_20",
+    "Description": "Deadlock detected due to mutual resource wait",
+    "Tag": [
+      "DEADLOCK"
+    ]
+  },
+  {
+    "ID": "ID_21",
+    "Description": "Improper use of casez leads to ambiguous condition matching",
+    "Tag": [
+      "CASEZ_USAGE",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_22",
+    "Description": "Signal name does not comply with naming standards",
+    "Tag": [
+      "NAMING_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_23",
+    "Description": "Flip-flop declared with correct edge sensitivity",
+    "Tag": [
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_24",
+    "Description": "Incorrect logical operator leads to unreachable branch",
+    "Tag": [
+      "CONDITION_ISSUE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_25",
+    "Description": "Delay statement used in RTL block",
+    "Tag": [
+      "DELAY_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_26",
+    "Description": "Masked bits in casez result in unreachable conditions",
+    "Tag": [
+      "CASEZ_USAGE",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_27",
+    "Description": "Non-synthesizable construct detected in RTL",
+    "Tag": [
+      "NON_SYNTHESIZABLE",
+      "DELAY_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_28",
+    "Description": "Floating-point signal declared in module interface",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_29",
+    "Description": "Always block sensitivity list missing required signals",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_30",
+    "Description": "Improper use of = in sequential logic",
+    "Tag": [
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_31",
+    "Description": "Deadlock caused by missing ready/valid signal assertion",
+    "Tag": [
+      "DEADLOCK",
+      "SYNCHRONIZATION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_32",
+    "Description": "Reset signal does not release stuck register",
+    "Tag": [
+      "RESET_ISSUE",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_33",
+    "Description": "Tool inserted buffer in combinational feedback path",
+    "Tag": [
+      "COMB_LOOP",
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_34",
+    "Description": "Sequential behavior affected by blocking semantics",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_35",
+    "Description": "Reset logic not implemented properly",
+    "Tag": [
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_36",
+    "Description": "Buffer added to resolve fanout issue",
+    "Tag": [
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_37",
+    "Description": "Macro expansion includes non-synthesizable constructs",
+    "Tag": [
+      "MACRO_USAGE",
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_38",
+    "Description": "Combinational loop detected but result is unused",
+    "Tag": [
+      "COMB_LOOP",
+      "UNUSED_LOGIC",
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_39",
+    "Description": "Delay statement used in synthesizable block",
+    "Tag": [
+      "NON_SYNTHESIZABLE",
+      "DELAY_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_40",
+    "Description": "Delay construct violates synthesis constraints",
+    "Tag": [
+      "DELAY_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_41",
+    "Description": "casez wildcard causes unintended branch execution",
+    "Tag": [
+      "CASEZ_USAGE",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_42",
+    "Description": "Improper use of <= in non-clocked logic",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_43",
+    "Description": "Signal stuck due to missing driver or logic",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_44",
+    "Description": "Missing clock pin in module definition",
+    "Tag": [
+      "CLOCK_PIN_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_45",
+    "Description": "Register assigned but never used in output logic",
+    "Tag": [
+      "REGISTER_USAGE",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_46",
+    "Description": "Clock domain crossing handled with single flip-flop",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_47",
+    "Description": "Incomplete event control in always block",
+    "Tag": [
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_48",
+    "Description": "Unsafe domain crossing via asynchronous flip-flop",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_49",
+    "Description": "Operands have mismatched vector sizes",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH"
+    ]
+  },
+  {
+    "ID": "ID_50",
+    "Description": "Combinational path results in constant signal",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_51",
+    "Description": "Improper macro usage leads to synthesis failure",
+    "Tag": [
+      "MACRO_USAGE",
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_52",
+    "Description": "RTL logic has no effect on circuit outputs",
+    "Tag": [
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_53",
+    "Description": "Improper clock signal routing to module port",
+    "Tag": [
+      "CLOCK_PIN_ISSUE",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_54",
+    "Description": "Sequential logic missing clock control",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_55",
+    "Description": "Sensitivity list missing required signal",
+    "Tag": [
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_56",
+    "Description": "Sensitivity list omission resulted in inferred latch",
+    "Tag": [
+      "LATCH_INFERRED",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_57",
+    "Description": "Signal stuck due to missing input change",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_58",
+    "Description": "Port type incompatible with synthesis tools",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_59",
+    "Description": "Flip-flop behavior not properly defined",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_60",
+    "Description": "Left-hand operand has greater bit width than right",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_61",
+    "Description": "Conditional expression logic is flawed or redundant",
+    "Tag": [
+      "CONDITION_ISSUE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_62",
+    "Description": "Blocking assignment used in clocked always block",
+    "Tag": [
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_63",
+    "Description": "FSM transitions without valid next state",
+    "Tag": [
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_64",
+    "Description": "Infinite state transition path without exit",
+    "Tag": [
+      "SEQUENTIAL_LOOP"
+    ]
+  },
+  {
+    "ID": "ID_65",
+    "Description": "No dynamic behavior observed in combinational block",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_66",
+    "Description": "No terminating condition in control flow",
+    "Tag": [
+      "LIVELOCK"
+    ]
+  },
+  {
+    "ID": "ID_67",
+    "Description": "Nonblocking assignment used in combinational logic",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_68",
+    "Description": "Uninitialized FSM state reached post-reset",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_69",
+    "Description": "Improper event control in always block",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_70",
+    "Description": "Input port declared but not connected",
+    "Tag": [
+      "IO_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_71",
+    "Description": "Signal updated in conflicting always blocks",
+    "Tag": [
+      "RACE_CONDITION"
+    ]
+  },
+  {
+    "ID": "ID_72",
+    "Description": "Macro used in procedural block not supported by synthesis",
+    "Tag": [
+      "MACRO_USAGE",
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_73",
+    "Description": "Nonblocking assignment delays signal update",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_74",
+    "Description": "Bit width and logic mismatch in conditional",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_75",
+    "Description": "Blocking assignment used in sequential logic",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_76",
+    "Description": "Timing control not supported in synthesis flow",
+    "Tag": [
+      "NON_SYNTHESIZABLE",
+      "DELAY_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_77",
+    "Description": "FSM lacks default transition for illegal state",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE"
+    ]
+  },
+  {
+    "ID": "ID_78",
+    "Description": "Placeholder module not elaborated during synthesis",
+    "Tag": [
+      "BLACK_BOX"
+    ]
+  },
+  {
+    "ID": "ID_79",
+    "Description": "Loop construct does not converge in RTL",
+    "Tag": [
+      "LOOP_CONSTRUCT"
+    ]
+  },
+  {
+    "ID": "ID_80",
+    "Description": "Reset control depends on flawed condition logic",
+    "Tag": [
+      "RESET_ISSUE",
+      "CONDITION_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_81",
+    "Description": "Circular logic chain resolved with a buffer",
+    "Tag": [
+      "COMB_LOOP",
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_82",
+    "Description": "Nested macros complicate synthesis analysis",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_83",
+    "Description": "Multiple drivers cause race on signal",
+    "Tag": [
+      "RACE_CONDITION"
+    ]
+  },
+  {
+    "ID": "ID_84",
+    "Description": "State machine transitions to undefined state",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE"
+    ]
+  },
+  {
+    "ID": "ID_85",
+    "Description": "Missing case for one or more FSM states",
+    "Tag": [
+      "UNDEF_STATE"
+    ]
+  },
+  {
+    "ID": "ID_86",
+    "Description": "Improper signal comparison due to size difference",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_87",
+    "Description": "Unconnected output port in module",
+    "Tag": [
+      "IO_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_88",
+    "Description": "Hierarchical port naming not aligned with standards",
+    "Tag": [
+      "MODULE_PORT_PROBLEM",
+      "NAMING_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_89",
+    "Description": "No dynamic behavior observed in combinational block",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_90",
+    "Description": "Assignment type mismatch in always block",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_91",
+    "Description": "Blocking assignment causes race condition",
+    "Tag": [
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_92",
+    "Description": "Blocking assignment used in sequential logic",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_93",
+    "Description": "Sequential logic updated outside clock event",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_94",
+    "Description": "Multiple conditional assignments on same wire",
+    "Tag": [
+      "MULTIDRIVE"
+    ]
+  },
+  {
+    "ID": "ID_95",
+    "Description": "Race condition due to multiple always blocks writing same signal",
+    "Tag": [
+      "RACE_CONDITION",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_96",
+    "Description": "Sequential logic missing clock control",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_97",
+    "Description": "Port name violates naming convention",
+    "Tag": [
+      "MODULE_PORT_PROBLEM",
+      "NAMING_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_98",
+    "Description": "Improper use of always block leads to reset issues",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_99",
+    "Description": "Missing or misnamed clock input in module interface",
+    "Tag": [
+      "CLOCK_PIN_ISSUE",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_100",
+    "Description": "Signal driven by multiple sources",
+    "Tag": [
+      "MULTIDRIVE"
+    ]
+  },
+  {
+    "ID": "ID_101",
+    "Description": "Black box module lacks port definition",
+    "Tag": [
+      "BLACK_BOX",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_102",
+    "Description": "Improper use of = in sequential logic",
+    "Tag": [
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_103",
+    "Description": "Incomplete event control in always block",
+    "Tag": [
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_104",
+    "Description": "Loop construct does not converge in RTL",
+    "Tag": [
+      "LOOP_CONSTRUCT"
+    ]
+  },
+  {
+    "ID": "ID_105",
+    "Description": "Floating-point arithmetic not synthesizable",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_106",
+    "Description": "Improper macro usage in conditional logic",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_107",
+    "Description": "Real number declared in procedural logic",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_108",
+    "Description": "Buffer added to resolve fanout issue",
+    "Tag": [
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_109",
+    "Description": "Improper naming convention on input using reserved token",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE",
+      "IO_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_110",
+    "Description": "Flip-flop declared with correct edge sensitivity",
+    "Tag": [
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_111",
+    "Description": "Port type incompatible with synthesis tools",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_112",
+    "Description": "Sequential behavior affected by blocking semantics",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_113",
+    "Description": "Macro hides critical logic from synthesis tool",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_114",
+    "Description": "Signal stuck due to missing driver or logic",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_115",
+    "Description": "FSM reaches state not defined in enum",
+    "Tag": [
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_116",
+    "Description": "Reset fails to initialize signal to expected value",
+    "Tag": [
+      "RESET_ISSUE",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_117",
+    "Description": "Detected multi-driver conflict on net",
+    "Tag": [
+      "MULTIDRIVE"
+    ]
+  },
+  {
+    "ID": "ID_118",
+    "Description": "Width inconsistency between assigned signals",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "RIGHT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_119",
+    "Description": "Sensitivity list missing required signal",
+    "Tag": [
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_120",
+    "Description": "Conflicting conditions using ambiguous operators",
+    "Tag": [
+      "CONDITION_ISSUE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_121",
+    "Description": "Missing clock pin in module definition",
+    "Tag": [
+      "CLOCK_PIN_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_122",
+    "Description": "Macro used in procedural block not supported by synthesis",
+    "Tag": [
+      "MACRO_USAGE",
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_123",
+    "Description": "Real data type used in RTL block",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_124",
+    "Description": "Input port declared but not connected",
+    "Tag": [
+      "IO_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_125",
+    "Description": "Naming convention violation using keyword",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_126",
+    "Description": "Incorrect assignment type in clocked always block",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_127",
+    "Description": "Reset signal applied inconsistently across modules",
+    "Tag": [
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_128",
+    "Description": "Macro expansion leads to undefined behavior",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_129",
+    "Description": "Sequential element missing asynchronous reset",
+    "Tag": [
+      "RESET_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_130",
+    "Description": "Tool inserted buffer in combinational feedback path",
+    "Tag": [
+      "COMB_LOOP",
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_131",
+    "Description": "No handler for undefined FSM condition",
+    "Tag": [
+      "UNDEF_STATE"
+    ]
+  },
+  {
+    "ID": "ID_132",
+    "Description": "Left-hand operand has greater bit width than right",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_133",
+    "Description": "FSM enters livelock due to cyclic transitions",
+    "Tag": [
+      "LIVELOCK",
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_134",
+    "Description": "Combinational block with incomplete sensitivity coverage",
+    "Tag": [
+      "LATCH_INFERRED",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_135",
+    "Description": "FSM condition causes unreachable state",
+    "Tag": [
+      "FSM_PROBLEM",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_136",
+    "Description": "Real number used in input/output port declaration",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_137",
+    "Description": "Port declared but not used in module body",
+    "Tag": [
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_138",
+    "Description": "FSM transitions without valid next state",
+    "Tag": [
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_139",
+    "Description": "Flip-flop behavior not properly defined",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_140",
+    "Description": "Uninitialized FSM state reached post-reset",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_141",
+    "Description": "State machine transitions controlled by conflicting conditions",
+    "Tag": [
+      "FSM_PROBLEM",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_142",
+    "Description": "No transition observed on signal",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_143",
+    "Description": "Combinational block lacks dynamic behavior",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_144",
+    "Description": "Timing uncertainty due to unsynchronized assignments",
+    "Tag": [
+      "RACE_CONDITION"
+    ]
+  },
+  {
+    "ID": "ID_145",
+    "Description": "Synth tool warning: initial block detected",
+    "Tag": [
+      "INITIAL_BLOCK"
+    ]
+  },
+  {
+    "ID": "ID_146",
+    "Description": "Sensitivity list omission resulted in inferred latch",
+    "Tag": [
+      "LATCH_INFERRED",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_147",
+    "Description": "Signal name conflicts with reserved keyword",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_148",
+    "Description": "Sequential element inferred from always block",
+    "Tag": [
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_149",
+    "Description": "Combinational path results in constant signal",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_150",
+    "Description": "Blocking assignment used in sequential logic",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_151",
+    "Description": "Placeholder module not elaborated during synthesis",
+    "Tag": [
+      "BLACK_BOX"
+    ]
+  },
+  {
+    "ID": "ID_152",
+    "Description": "Flip-flop behavior not properly defined",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_153",
+    "Description": "Simulation-only construct found in design",
+    "Tag": [
+      "INITIAL_BLOCK"
+    ]
+  },
+  {
+    "ID": "ID_154",
+    "Description": "Clock pin not connected in module instantiation",
+    "Tag": [
+      "CLOCK_PIN_ISSUE",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_155",
+    "Description": "Nonblocking assignment used in combinational logic",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_156",
+    "Description": "Always block sensitivity list missing required signals",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_157",
+    "Description": "Timing control via #delay not synthesizable",
+    "Tag": [
+      "DELAY_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_158",
+    "Description": "No driver detected for stuck signal",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_159",
+    "Description": "Signal name does not comply with naming standards",
+    "Tag": [
+      "NAMING_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_160",
+    "Description": "Incorrect logical operator leads to unreachable branch",
+    "Tag": [
+      "CONDITION_ISSUE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_161",
+    "Description": "Assignment causes truncation due to wider source signal",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_162",
+    "Description": "Combinational logic inferred as sequential due to missing sensitivity",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_163",
+    "Description": "Improper use of reserved identifier for signal",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_164",
+    "Description": "Missing implementation for declared module",
+    "Tag": [
+      "BLACK_BOX",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_165",
+    "Description": "Improper use of <= in non-clocked logic",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_166",
+    "Description": "Buffer inserted to break loop with unused outcome",
+    "Tag": [
+      "COMB_LOOP",
+      "UNUSED_LOGIC",
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_167",
+    "Description": "Signal name conflicts with reserved keyword",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_168",
+    "Description": "Wire not connected to any output or module port",
+    "Tag": [
+      "WIRE_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_169",
+    "Description": "Improper event control in always block",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_170",
+    "Description": "Naming convention violation using keyword",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_171",
+    "Description": "Sequential behavior affected by blocking semantics",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_172",
+    "Description": "Bit width and logic mismatch in conditional",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_173",
+    "Description": "Top-level IO missing proper connection",
+    "Tag": [
+      "IO_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_174",
+    "Description": "Floating-point arithmetic not synthesizable",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_175",
+    "Description": "Macro expansion includes non-synthesizable constructs",
+    "Tag": [
+      "MACRO_USAGE",
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_176",
+    "Description": "Assignment type mismatch in always block",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_177",
+    "Description": "Wider left operand in logical comparison",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_178",
+    "Description": "Sequential block lacks edge sensitivity",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_179",
+    "Description": "Combinational block lacks dynamic behavior",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_180",
+    "Description": "Input port declared but not connected",
+    "Tag": [
+      "IO_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_181",
+    "Description": "Unresolved black box instantiation in design hierarchy",
+    "Tag": [
+      "BLACK_BOX",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_182",
+    "Description": "Left-hand operand has greater bit width than right",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_183",
+    "Description": "Underscore missing in hierarchical signal name",
+    "Tag": [
+      "NAMING_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_184",
+    "Description": "Clock domain crossing detected without safe mechanism",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING"
+    ]
+  },
+  {
+    "ID": "ID_185",
+    "Description": "FSM lacks default transition for illegal state",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE"
+    ]
+  },
+  {
+    "ID": "ID_186",
+    "Description": "Deadlock detected due to mutual resource wait",
+    "Tag": [
+      "DEADLOCK"
+    ]
+  },
+  {
+    "ID": "ID_187",
+    "Description": "Signal stuck due to missing input change",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_188",
+    "Description": "Wire declared but not connected to any logic",
+    "Tag": [
+      "WIRE_USAGE",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_189",
+    "Description": "Sequential logic updated outside clock event",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_190",
+    "Description": "Reset logic not properly handled in always construct",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_191",
+    "Description": "Sensitivity list missing required signal",
+    "Tag": [
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_192",
+    "Description": "State machine transitions to undefined state",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE"
+    ]
+  },
+  {
+    "ID": "ID_193",
+    "Description": "Operands have mismatched vector sizes",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH"
+    ]
+  },
+  {
+    "ID": "ID_194",
+    "Description": "Improper macro usage in conditional logic",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_195",
+    "Description": "RTL loop construct produces unused expressions",
+    "Tag": [
+      "LOOP_CONSTRUCT",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_196",
+    "Description": "Conflicting conditions using ambiguous operators",
+    "Tag": [
+      "CONDITION_ISSUE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_197",
+    "Description": "Name includes illegal characters",
+    "Tag": [
+      "NAMING_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_198",
+    "Description": "Improper macro usage leads to synthesis failure",
+    "Tag": [
+      "MACRO_USAGE",
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_199",
+    "Description": "Reset logic fails to initialize FSM state",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_200",
+    "Description": "Latch inferred due to missing signal in sensitivity list",
+    "Tag": [
+      "LATCH_INFERRED",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_201",
+    "Description": "Unresolved module instantiation in netlist",
+    "Tag": [
+      "BLACK_BOX"
+    ]
+  },
+  {
+    "ID": "ID_202",
+    "Description": "Nonblocking assignment used in combinational always block",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_203",
+    "Description": "Incomplete event control in always block",
+    "Tag": [
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_204",
+    "Description": "Flip-flop inferred without reset condition",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_205",
+    "Description": "Missing case for one or more FSM states",
+    "Tag": [
+      "UNDEF_STATE"
+    ]
+  },
+  {
+    "ID": "ID_206",
+    "Description": "Bit width mismatch detected in assignment",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH"
+    ]
+  },
+  {
+    "ID": "ID_207",
+    "Description": "Conditional reset logic on flip-flop fails under certain inputs",
+    "Tag": [
+      "RESET_ISSUE",
+      "CONDITION_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_208",
+    "Description": "Async reset triggered incorrectly due to conditional misbehavior",
+    "Tag": [
+      "RESET_ISSUE",
+      "CONDITION_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_209",
+    "Description": "Timing control not supported in synthesis flow",
+    "Tag": [
+      "NON_SYNTHESIZABLE",
+      "DELAY_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_210",
+    "Description": "Improper always_comb used in place of always_ff",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_211",
+    "Description": "Concurrent processes block each other without resolution",
+    "Tag": [
+      "DEADLOCK",
+      "SYNCHRONIZATION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_212",
+    "Description": "Incorrect assignment type in clocked always block",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_213",
+    "Description": "State machine stuck in loop without progressing",
+    "Tag": [
+      "LIVELOCK",
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_214",
+    "Description": "D flip-flop used for timing alignment",
+    "Tag": [
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_215",
+    "Description": "Combinational output depends on uninitialized signal",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_216",
+    "Description": "Delay statement used in synthesizable block",
+    "Tag": [
+      "NON_SYNTHESIZABLE",
+      "DELAY_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_217",
+    "Description": "Reset behavior not consistent across flip-flops",
+    "Tag": [
+      "RESET_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_218",
+    "Description": "No output change observed in combinational logic",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_219",
+    "Description": "Signal remains constant throughout simulation",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_220",
+    "Description": "Unused wire signal in RTL design",
+    "Tag": [
+      "WIRE_USAGE",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_221",
+    "Description": "Port type incompatible with synthesis tools",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_222",
+    "Description": "Next state logic does not handle all possible cases",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE"
+    ]
+  },
+  {
+    "ID": "ID_223",
+    "Description": "Declared register does not impact functional behavior",
+    "Tag": [
+      "REGISTER_USAGE",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_224",
+    "Description": "Nonblocking assignment delays signal update",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_225",
+    "Description": "Flip-flop defined without proper reset control",
+    "Tag": [
+      "RESET_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_226",
+    "Description": "Multiple conditional assignments on same wire",
+    "Tag": [
+      "MULTIDRIVE"
+    ]
+  },
+  {
+    "ID": "ID_227",
+    "Description": "Reset logic not implemented properly",
+    "Tag": [
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_228",
+    "Description": "Port declared but not used in module body",
+    "Tag": [
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_229",
+    "Description": "Redundant wire signal in RTL",
+    "Tag": [
+      "WIRE_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_230",
+    "Description": "Sequential element inferred from always block",
+    "Tag": [
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_231",
+    "Description": "No handler for undefined FSM condition",
+    "Tag": [
+      "UNDEF_STATE"
+    ]
+  },
+  {
+    "ID": "ID_232",
+    "Description": "Signal uses camel case instead of snake case",
+    "Tag": [
+      "NAMING_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_233",
+    "Description": "Flip-flop declared with correct edge sensitivity",
+    "Tag": [
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_234",
+    "Description": "Nonblocking assignment used in combinational always block",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_235",
+    "Description": "Naming convention violation using keyword",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_236",
+    "Description": "FSM reaches state not defined in enum",
+    "Tag": [
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_237",
+    "Description": "Port type incompatible with synthesis tools",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_238",
+    "Description": "Top-level IO missing proper connection",
+    "Tag": [
+      "IO_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_239",
+    "Description": "Dead logic detected by synthesis tool",
+    "Tag": [
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_240",
+    "Description": "Black box module lacks port definition",
+    "Tag": [
+      "BLACK_BOX",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_241",
+    "Description": "Improper clock signal routing to module port",
+    "Tag": [
+      "CLOCK_PIN_ISSUE",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_242",
+    "Description": "Process loops indefinitely without external trigger",
+    "Tag": [
+      "LIVELOCK"
+    ]
+  },
+  {
+    "ID": "ID_243",
+    "Description": "casez used with overlapping wildcard patterns",
+    "Tag": [
+      "CASEZ_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_244",
+    "Description": "No transition observed on signal",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_245",
+    "Description": "Incomplete sensitivity list leads to inferred latch",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_246",
+    "Description": "Sensitivity list missing required signal",
+    "Tag": [
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_247",
+    "Description": "Reset control depends on flawed condition logic",
+    "Tag": [
+      "RESET_ISSUE",
+      "CONDITION_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_248",
+    "Description": "Reset logic not properly handled in always construct",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_249",
+    "Description": "Missing or misnamed clock input in module interface",
+    "Tag": [
+      "CLOCK_PIN_ISSUE",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_250",
+    "Description": "Improper signal comparison due to size difference",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_251",
+    "Description": "Unresolved black box instantiation in design hierarchy",
+    "Tag": [
+      "BLACK_BOX",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_252",
+    "Description": "Combinational logic produces constant output",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_253",
+    "Description": "Real number used in input/output port declaration",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_254",
+    "Description": "Conflicting conditions using ambiguous operators",
+    "Tag": [
+      "CONDITION_ISSUE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_255",
+    "Description": "Signal name conflicts with reserved keyword",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_256",
+    "Description": "Flip-flop declared with correct edge sensitivity",
+    "Tag": [
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_257",
+    "Description": "Improper reset logic causes signal to remain constant",
+    "Tag": [
+      "RESET_ISSUE",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_258",
+    "Description": "Reset signal applied inconsistently across modules",
+    "Tag": [
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_259",
+    "Description": "Wire declared but unused in logic",
+    "Tag": [
+      "WIRE_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_260",
+    "Description": "Signal stuck due to missing input change",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_261",
+    "Description": "Floating-point signal declared in module interface",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_262",
+    "Description": "FSM transitions without valid next state",
+    "Tag": [
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_263",
+    "Description": "No dynamic behavior observed in combinational block",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_264",
+    "Description": "Combinational loop detected but result is unused",
+    "Tag": [
+      "COMB_LOOP",
+      "UNUSED_LOGIC",
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_265",
+    "Description": "Signal updated in parallel blocks without synchronization",
+    "Tag": [
+      "RACE_CONDITION",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_266",
+    "Description": "Improper use of casez leads to ambiguous condition matching",
+    "Tag": [
+      "CASEZ_USAGE",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_267",
+    "Description": "Reset logic not implemented properly",
+    "Tag": [
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_268",
+    "Description": "Assignment type mismatch in always block",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_269",
+    "Description": "Non-synthesizable construct detected in RTL",
+    "Tag": [
+      "NON_SYNTHESIZABLE",
+      "DELAY_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_270",
+    "Description": "Missing implementation for declared module",
+    "Tag": [
+      "BLACK_BOX",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_271",
+    "Description": "Improper macro usage leads to synthesis failure",
+    "Tag": [
+      "MACRO_USAGE",
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_272",
+    "Description": "Signal toggles once and then freezes",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_273",
+    "Description": "FSM contains uninitialized state variable",
+    "Tag": [
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_274",
+    "Description": "RTL loop construct produces unused expressions",
+    "Tag": [
+      "LOOP_CONSTRUCT",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_275",
+    "Description": "Nested macros complicate synthesis analysis",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_276",
+    "Description": "casez wildcard causes unintended branch execution",
+    "Tag": [
+      "CASEZ_USAGE",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_277",
+    "Description": "Conditional reset logic on flip-flop fails under certain inputs",
+    "Tag": [
+      "RESET_ISSUE",
+      "CONDITION_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_278",
+    "Description": "Incorrect assignment type in clocked always block",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_279",
+    "Description": "Design enters livelock due to cyclic control logic",
+    "Tag": [
+      "LIVELOCK"
+    ]
+  },
+  {
+    "ID": "ID_280",
+    "Description": "Buffer added to resolve fanout issue",
+    "Tag": [
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_281",
+    "Description": "Macro expansion includes non-synthesizable constructs",
+    "Tag": [
+      "MACRO_USAGE",
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_282",
+    "Description": "No dynamic behavior observed in combinational block",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_283",
+    "Description": "Assignment type mismatch in always block",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_284",
+    "Description": "Nonblocking assignment used in combinational logic",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_285",
+    "Description": "Feedback loop in sequential logic causes hazard",
+    "Tag": [
+      "SEQUENTIAL_LOOP"
+    ]
+  },
+  {
+    "ID": "ID_286",
+    "Description": "Combinational loop detected but result is unused",
+    "Tag": [
+      "COMB_LOOP",
+      "UNUSED_LOGIC",
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_287",
+    "Description": "Floating-point signal declared in module interface",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_288",
+    "Description": "Clock signal not routed to flip-flop",
+    "Tag": [
+      "CLOCK_PIN_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_289",
+    "Description": "Combinational logic produces constant output",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_290",
+    "Description": "Clock input not synchronized across domains",
+    "Tag": [
+      "CLOCK_PIN_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_291",
+    "Description": "Floating-point arithmetic not synthesizable",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_292",
+    "Description": "Signal remains constant throughout simulation",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_293",
+    "Description": "Timing control via #delay not synthesizable",
+    "Tag": [
+      "DELAY_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_294",
+    "Description": "Signal updated in parallel blocks without synchronization",
+    "Tag": [
+      "RACE_CONDITION",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_295",
+    "Description": "Nonblocking assignment leads to simulation mismatch",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_296",
+    "Description": "Initial block used in synthesizable RTL",
+    "Tag": [
+      "INITIAL_BLOCK"
+    ]
+  },
+  {
+    "ID": "ID_297",
+    "Description": "Always block sensitivity list missing required signals",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_298",
+    "Description": "Loop results do not affect circuit behavior",
+    "Tag": [
+      "LOOP_CONSTRUCT",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_299",
+    "Description": "Nonblocking assignment used in combinational always block",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_300",
+    "Description": "Clock pin not connected in module instantiation",
+    "Tag": [
+      "CLOCK_PIN_ISSUE",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_301",
+    "Description": "Hierarchical port naming not aligned with standards",
+    "Tag": [
+      "MODULE_PORT_PROBLEM",
+      "NAMING_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_302",
+    "Description": "No output change observed in combinational logic",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_303",
+    "Description": "Improper use of reserved identifier for signal",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_304",
+    "Description": "Sensitivity list missing required signal",
+    "Tag": [
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_305",
+    "Description": "Unsafe domain crossing via asynchronous flip-flop",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_306",
+    "Description": "Clock domain crossing detected without safe mechanism",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING"
+    ]
+  },
+  {
+    "ID": "ID_307",
+    "Description": "Flip-flop defined without proper reset control",
+    "Tag": [
+      "RESET_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_308",
+    "Description": "Clock input not connected in top-level design",
+    "Tag": [
+      "CLOCK_PIN_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_309",
+    "Description": "Black box module lacks implementation",
+    "Tag": [
+      "BLACK_BOX"
+    ]
+  },
+  {
+    "ID": "ID_310",
+    "Description": "Cross-domain signal lacks synchronizer",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING"
+    ]
+  },
+  {
+    "ID": "ID_311",
+    "Description": "Wildcard bits in casez create ambiguous matches",
+    "Tag": [
+      "CASEZ_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_312",
+    "Description": "Keyword misused as signal name",
+    "Tag": [
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_313",
+    "Description": "casez construct not suitable for synthesis",
+    "Tag": [
+      "CASEZ_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_314",
+    "Description": "Incorrect use of <= in non-clocked block",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_315",
+    "Description": "Top-level IO missing proper connection",
+    "Tag": [
+      "IO_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_316",
+    "Description": "Macro used in RTL block without proper expansion",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_317",
+    "Description": "Modules waiting indefinitely due to handshake failure",
+    "Tag": [
+      "DEADLOCK",
+      "SYNCHRONIZATION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_318",
+    "Description": "Delay or force statements used in synthesizable block",
+    "Tag": [
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_319",
+    "Description": "Clock domain crossing handled with single flip-flop",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_320",
+    "Description": "Latch inferred due to missing signal in sensitivity list",
+    "Tag": [
+      "LATCH_INFERRED",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_321",
+    "Description": "Looped logic not connected to any output",
+    "Tag": [
+      "LOOP_CONSTRUCT",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_322",
+    "Description": "Port type incompatible with synthesis tools",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_323",
+    "Description": "Signal stuck due to missing driver or logic",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_324",
+    "Description": "Macro used in procedural block not supported by synthesis",
+    "Tag": [
+      "MACRO_USAGE",
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_325",
+    "Description": "Masked bits in casez result in unreachable conditions",
+    "Tag": [
+      "CASEZ_USAGE",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_326",
+    "Description": "Signal value does not reflect expected transitions",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_327",
+    "Description": "Async reset triggered incorrectly due to conditional misbehavior",
+    "Tag": [
+      "RESET_ISSUE",
+      "CONDITION_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_328",
+    "Description": "Incomplete sensitivity list leads to inferred latch",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_329",
+    "Description": "Improper reset logic causes signal to remain constant",
+    "Tag": [
+      "RESET_ISSUE",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_330",
+    "Description": "Signal width mismatch detected during assignment",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_331",
+    "Description": "Blocking assignment used in sequential logic",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_332",
+    "Description": "Signal name conflicts with reserved keyword",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_333",
+    "Description": "Reset control depends on flawed condition logic",
+    "Tag": [
+      "RESET_ISSUE",
+      "CONDITION_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_334",
+    "Description": "Input port declared but not connected",
+    "Tag": [
+      "IO_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_335",
+    "Description": "Flop used for crossing clock domains without sync",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_336",
+    "Description": "Signal uses camel case instead of snake case",
+    "Tag": [
+      "NAMING_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_337",
+    "Description": "Missing clock pin in module definition",
+    "Tag": [
+      "CLOCK_PIN_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_338",
+    "Description": "FSM lacks default transition for illegal state",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE"
+    ]
+  },
+  {
+    "ID": "ID_339",
+    "Description": "Missing synchronous reset for register block",
+    "Tag": [
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_340",
+    "Description": "Sensitivity list omission resulted in inferred latch",
+    "Tag": [
+      "LATCH_INFERRED",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_341",
+    "Description": "No driver detected for stuck signal",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_342",
+    "Description": "State machine transitions controlled by conflicting conditions",
+    "Tag": [
+      "FSM_PROBLEM",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_343",
+    "Description": "Concurrent processes block each other without resolution",
+    "Tag": [
+      "DEADLOCK",
+      "SYNCHRONIZATION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_344",
+    "Description": "Real data type used in RTL block",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_345",
+    "Description": "Reset behavior not consistent across flip-flops",
+    "Tag": [
+      "RESET_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_346",
+    "Description": "Conditional reset logic on flip-flop fails under certain inputs",
+    "Tag": [
+      "RESET_ISSUE",
+      "CONDITION_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_347",
+    "Description": "Real number used in input/output port declaration",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_348",
+    "Description": "Incorrect assignment type in clocked always block",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_349",
+    "Description": "Width inconsistency between assigned signals",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "RIGHT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_350",
+    "Description": "Synthesis tool identified unused registered logic",
+    "Tag": [
+      "REGISTER_USAGE",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_351",
+    "Description": "FSM enters livelock due to cyclic transitions",
+    "Tag": [
+      "LIVELOCK",
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_352",
+    "Description": "Sequential behavior affected by blocking semantics",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_353",
+    "Description": "Nonblocking assignment leads to simulation mismatch",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_354",
+    "Description": "Reset logic fails to initialize FSM state",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_355",
+    "Description": "Unresolved black box instantiation in design hierarchy",
+    "Tag": [
+      "BLACK_BOX",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_356",
+    "Description": "No dynamic behavior observed in combinational block",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_357",
+    "Description": "Signal updated in conflicting always blocks",
+    "Tag": [
+      "RACE_CONDITION"
+    ]
+  },
+  {
+    "ID": "ID_358",
+    "Description": "Deadlock caused by missing ready/valid signal assertion",
+    "Tag": [
+      "DEADLOCK",
+      "SYNCHRONIZATION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_359",
+    "Description": "Blocking assignment used in sequential logic",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_360",
+    "Description": "Latch inferred due to missing signal in sensitivity list",
+    "Tag": [
+      "LATCH_INFERRED",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_361",
+    "Description": "Port type incompatible with synthesis tools",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_362",
+    "Description": "Sequential logic missing clock control",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_363",
+    "Description": "FSM transitions into illegal state value",
+    "Tag": [
+      "UNDEF_STATE"
+    ]
+  },
+  {
+    "ID": "ID_364",
+    "Description": "Clock signal not routed to flip-flop",
+    "Tag": [
+      "CLOCK_PIN_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_365",
+    "Description": "Sequential behavior affected by blocking semantics",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_366",
+    "Description": "Multiple conditional assignments on same wire",
+    "Tag": [
+      "MULTIDRIVE"
+    ]
+  },
+  {
+    "ID": "ID_367",
+    "Description": "Always block sensitivity list missing required signals",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_368",
+    "Description": "Real number used in input/output port declaration",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_369",
+    "Description": "Real data type used in RTL block",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_370",
+    "Description": "Combinational logic produces constant output",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_371",
+    "Description": "Signal stuck due to missing input change",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_372",
+    "Description": "Combinational path results in constant signal",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_373",
+    "Description": "Process loops indefinitely without external trigger",
+    "Tag": [
+      "LIVELOCK"
+    ]
+  },
+  {
+    "ID": "ID_374",
+    "Description": "Conflicting conditions using ambiguous operators",
+    "Tag": [
+      "CONDITION_ISSUE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_375",
+    "Description": "Synthesis tool identified unused registered logic",
+    "Tag": [
+      "REGISTER_USAGE",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_376",
+    "Description": "Placeholder module not elaborated during synthesis",
+    "Tag": [
+      "BLACK_BOX"
+    ]
+  },
+  {
+    "ID": "ID_377",
+    "Description": "Loop construct does not converge in RTL",
+    "Tag": [
+      "LOOP_CONSTRUCT"
+    ]
+  },
+  {
+    "ID": "ID_378",
+    "Description": "Redundant buffer found in combinational path",
+    "Tag": [
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_379",
+    "Description": "Reset signal applied inconsistently across modules",
+    "Tag": [
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_380",
+    "Description": "Unbounded loop detected in generate block",
+    "Tag": [
+      "LOOP_CONSTRUCT"
+    ]
+  },
+  {
+    "ID": "ID_381",
+    "Description": "Conditional expression logic is flawed or redundant",
+    "Tag": [
+      "CONDITION_ISSUE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_382",
+    "Description": "Unconnected output port in module",
+    "Tag": [
+      "IO_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_383",
+    "Description": "Improper use of <= in non-clocked logic",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_384",
+    "Description": "Race condition due to multiple always blocks writing same signal",
+    "Tag": [
+      "RACE_CONDITION",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_385",
+    "Description": "Blocking assignment used in clocked always block",
+    "Tag": [
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_386",
+    "Description": "Clock input not connected in top-level design",
+    "Tag": [
+      "CLOCK_PIN_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_387",
+    "Description": "D flip-flop used for timing alignment",
+    "Tag": [
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_388",
+    "Description": "Incomplete sensitivity list leads to inferred latch",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_389",
+    "Description": "Floating-point signal declared in module interface",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_390",
+    "Description": "Buffer added to resolve fanout issue",
+    "Tag": [
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_391",
+    "Description": "Assignment type mismatch in always block",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_392",
+    "Description": "Combinational block with incomplete sensitivity coverage",
+    "Tag": [
+      "LATCH_INFERRED",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_393",
+    "Description": "Synth tool warning: initial block detected",
+    "Tag": [
+      "INITIAL_BLOCK"
+    ]
+  },
+  {
+    "ID": "ID_394",
+    "Description": "FSM contains uninitialized state variable",
+    "Tag": [
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_395",
+    "Description": "Missing synchronous reset for register block",
+    "Tag": [
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_396",
+    "Description": "Left-hand operand has greater bit width than right",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_397",
+    "Description": "Delay statement used in RTL block",
+    "Tag": [
+      "DELAY_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_398",
+    "Description": "Blocking assignment overrides previous value unexpectedly",
+    "Tag": [
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_399",
+    "Description": "State machine transitions controlled by conflicting conditions",
+    "Tag": [
+      "FSM_PROBLEM",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_400",
+    "Description": "Improper event control in always block",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_401",
+    "Description": "Macro used in RTL block without proper expansion",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_402",
+    "Description": "FSM reaches state not defined in enum",
+    "Tag": [
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_403",
+    "Description": "Signal width mismatch detected during assignment",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_404",
+    "Description": "Unsafe domain crossing via asynchronous flip-flop",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_405",
+    "Description": "FSM enters unknown state after reset",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_406",
+    "Description": "Macro definition includes unsupported syntax",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_407",
+    "Description": "Assignment causes truncation due to wider source signal",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_408",
+    "Description": "Reset logic not properly handled in always construct",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_409",
+    "Description": "Module name is a reserved SystemVerilog word",
+    "Tag": [
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_410",
+    "Description": "Clock domain crossing handled with single flip-flop",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_411",
+    "Description": "Floating-point arithmetic not synthesizable",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_412",
+    "Description": "Signal assignment results in data loss due to mismatch",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "RIGHT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_413",
+    "Description": "FSM condition causes unreachable state",
+    "Tag": [
+      "FSM_PROBLEM",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_414",
+    "Description": "Macro used without proper parameterization",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_415",
+    "Description": "Real number used in input/output port declaration",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_416",
+    "Description": "Reset control depends on flawed condition logic",
+    "Tag": [
+      "RESET_ISSUE",
+      "CONDITION_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_417",
+    "Description": "Unsafe domain crossing via asynchronous flip-flop",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_418",
+    "Description": "Improper macro usage in conditional logic",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_419",
+    "Description": "Loop results do not affect circuit behavior",
+    "Tag": [
+      "LOOP_CONSTRUCT",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_420",
+    "Description": "Reset signal does not release stuck register",
+    "Tag": [
+      "RESET_ISSUE",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_421",
+    "Description": "FSM lacks default transition for illegal state",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE"
+    ]
+  },
+  {
+    "ID": "ID_422",
+    "Description": "Combinational path results in constant signal",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_423",
+    "Description": "Incorrect assignment type in clocked always block",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_424",
+    "Description": "Port type incompatible with synthesis tools",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_425",
+    "Description": "Delay construct violates synthesis constraints",
+    "Tag": [
+      "DELAY_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_426",
+    "Description": "Wire declared but unused in logic",
+    "Tag": [
+      "WIRE_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_427",
+    "Description": "Clock input not connected in top-level design",
+    "Tag": [
+      "CLOCK_PIN_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_428",
+    "Description": "Real type used in procedural assignment",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_429",
+    "Description": "Concurrent blocks unable to proceed due to signal dependency",
+    "Tag": [
+      "DEADLOCK"
+    ]
+  },
+  {
+    "ID": "ID_430",
+    "Description": "Combinational path includes unintended feedback loop",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_431",
+    "Description": "Buffer added to resolve fanout issue",
+    "Tag": [
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_432",
+    "Description": "Unconnected module port detected",
+    "Tag": [
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_433",
+    "Description": "Signal stuck due to missing driver or logic",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_434",
+    "Description": "Improper clock signal routing to module port",
+    "Tag": [
+      "CLOCK_PIN_ISSUE",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_435",
+    "Description": "Signal remains constant throughout simulation",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_436",
+    "Description": "Poorly written FSM logic leads to conditional dead ends",
+    "Tag": [
+      "FSM_PROBLEM",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_437",
+    "Description": "Uninitialized FSM state reached post-reset",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_438",
+    "Description": "Floating-point arithmetic not synthesizable",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_439",
+    "Description": "Sequential logic missing clock control",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_440",
+    "Description": "Clock domain crossing detected without safe mechanism",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING"
+    ]
+  },
+  {
+    "ID": "ID_441",
+    "Description": "Deadlock caused by missing ready/valid signal assertion",
+    "Tag": [
+      "DEADLOCK",
+      "SYNCHRONIZATION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_442",
+    "Description": "FSM enters unknown state after reset",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_443",
+    "Description": "Left-hand operand has greater bit width than right",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_444",
+    "Description": "Conflicting conditions using ambiguous operators",
+    "Tag": [
+      "CONDITION_ISSUE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_445",
+    "Description": "Timing uncertainty from concurrent assignments",
+    "Tag": [
+      "RACE_CONDITION",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_446",
+    "Description": "Signal name conflicts with reserved keyword",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_447",
+    "Description": "No driver detected for stuck signal",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_448",
+    "Description": "Signal width mismatch detected during assignment",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_449",
+    "Description": "Sequential element inferred from always block",
+    "Tag": [
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_450",
+    "Description": "Black box module lacks port definition",
+    "Tag": [
+      "BLACK_BOX",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_451",
+    "Description": "Width inconsistency between assigned signals",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "RIGHT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_452",
+    "Description": "Flop used for crossing clock domains without sync",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_453",
+    "Description": "No transition observed on signal",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_454",
+    "Description": "Simulation-only construct found in design",
+    "Tag": [
+      "INITIAL_BLOCK"
+    ]
+  },
+  {
+    "ID": "ID_455",
+    "Description": "Reset logic fails to initialize FSM state",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_456",
+    "Description": "Missing implementation for declared module",
+    "Tag": [
+      "BLACK_BOX",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_457",
+    "Description": "Improper use of = in sequential logic",
+    "Tag": [
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_458",
+    "Description": "Signal updated in conflicting always blocks",
+    "Tag": [
+      "RACE_CONDITION"
+    ]
+  },
+  {
+    "ID": "ID_459",
+    "Description": "Sequential block lacks edge sensitivity",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_460",
+    "Description": "No dynamic behavior observed in combinational block",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_461",
+    "Description": "Combinational loop detected but result is unused",
+    "Tag": [
+      "COMB_LOOP",
+      "UNUSED_LOGIC",
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_462",
+    "Description": "Flip-flop behavior not properly defined",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_463",
+    "Description": "Blocking assignment overrides previous value unexpectedly",
+    "Tag": [
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_464",
+    "Description": "Hierarchical port naming not aligned with standards",
+    "Tag": [
+      "MODULE_PORT_PROBLEM",
+      "NAMING_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_465",
+    "Description": "Port name violates naming convention",
+    "Tag": [
+      "MODULE_PORT_PROBLEM",
+      "NAMING_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_466",
+    "Description": "Unconnected output port in module",
+    "Tag": [
+      "IO_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_467",
+    "Description": "Signal stuck due to missing input change",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_468",
+    "Description": "Flip-flop behavior not properly defined",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_469",
+    "Description": "Poorly written FSM logic leads to conditional dead ends",
+    "Tag": [
+      "FSM_PROBLEM",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_470",
+    "Description": "Hierarchical port naming not aligned with standards",
+    "Tag": [
+      "MODULE_PORT_PROBLEM",
+      "NAMING_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_471",
+    "Description": "Combinational logic produces constant output",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_472",
+    "Description": "No terminating condition in control flow",
+    "Tag": [
+      "LIVELOCK"
+    ]
+  },
+  {
+    "ID": "ID_473",
+    "Description": "Nonblocking assignment used in combinational logic",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_474",
+    "Description": "Nonblocking assignment causes race in simulation",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_475",
+    "Description": "Blocking assignment used in sequential logic",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_476",
+    "Description": "Clock domain crossing detected without safe mechanism",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING"
+    ]
+  },
+  {
+    "ID": "ID_477",
+    "Description": "Macro definition includes unsupported syntax",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_478",
+    "Description": "Blocking assignment used in clocked always block",
+    "Tag": [
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_479",
+    "Description": "Delay or force statements used in synthesizable block",
+    "Tag": [
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_480",
+    "Description": "Placeholder module not elaborated during synthesis",
+    "Tag": [
+      "BLACK_BOX"
+    ]
+  },
+  {
+    "ID": "ID_481",
+    "Description": "Missing implementation for declared module",
+    "Tag": [
+      "BLACK_BOX",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_482",
+    "Description": "Width inconsistency between assigned signals",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "RIGHT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_483",
+    "Description": "No output change observed in combinational logic",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_484",
+    "Description": "Black box module lacks implementation",
+    "Tag": [
+      "BLACK_BOX"
+    ]
+  },
+  {
+    "ID": "ID_485",
+    "Description": "Circular logic path eliminated but does not impact design",
+    "Tag": [
+      "COMB_LOOP",
+      "UNUSED_LOGIC",
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_486",
+    "Description": "Reset fails to initialize signal to expected value",
+    "Tag": [
+      "RESET_ISSUE",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_487",
+    "Description": "Reset logic not properly handled in always construct",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_488",
+    "Description": "Signal stuck due to missing driver or logic",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_489",
+    "Description": "Real number used in conditional expression",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_490",
+    "Description": "Concurrent blocks unable to proceed due to signal dependency",
+    "Tag": [
+      "DEADLOCK"
+    ]
+  },
+  {
+    "ID": "ID_491",
+    "Description": "No exit condition defined for FSM livelock scenario",
+    "Tag": [
+      "LIVELOCK",
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_492",
+    "Description": "Reset signal does not release stuck register",
+    "Tag": [
+      "RESET_ISSUE",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_493",
+    "Description": "Missing or misnamed clock input in module interface",
+    "Tag": [
+      "CLOCK_PIN_ISSUE",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_494",
+    "Description": "Clock signal not routed to flip-flop",
+    "Tag": [
+      "CLOCK_PIN_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_495",
+    "Description": "Signal driven by multiple sources",
+    "Tag": [
+      "MULTIDRIVE"
+    ]
+  },
+  {
+    "ID": "ID_496",
+    "Description": "Incorrect use of <= in non-clocked block",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_497",
+    "Description": "FSM enters unknown state after reset",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_498",
+    "Description": "Name includes illegal characters",
+    "Tag": [
+      "NAMING_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_499",
+    "Description": "Real data type used in RTL block",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_500",
+    "Description": "Improper macro usage leads to synthesis failure",
+    "Tag": [
+      "MACRO_USAGE",
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_501",
+    "Description": "Delay statement used in RTL block",
+    "Tag": [
+      "DELAY_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_502",
+    "Description": "Nonblocking assignment leads to simulation mismatch",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_503",
+    "Description": "Unconnected module port detected",
+    "Tag": [
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_504",
+    "Description": "Real number declared in procedural logic",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_505",
+    "Description": "Bit width and logic mismatch in conditional",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_506",
+    "Description": "Macro used without proper parameterization",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_507",
+    "Description": "Signal stuck due to missing input change",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_508",
+    "Description": "Missing clock pin in module definition",
+    "Tag": [
+      "CLOCK_PIN_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_509",
+    "Description": "Incorrect assignment type in clocked always block",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_510",
+    "Description": "Conditional reset logic on flip-flop fails under certain inputs",
+    "Tag": [
+      "RESET_ISSUE",
+      "CONDITION_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_511",
+    "Description": "Clock pin not connected in module instantiation",
+    "Tag": [
+      "CLOCK_PIN_ISSUE",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_512",
+    "Description": "Signal name conflicts with reserved keyword",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_513",
+    "Description": "Naming convention violation using keyword",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_514",
+    "Description": "Missing synchronous reset for register block",
+    "Tag": [
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_515",
+    "Description": "Cross-domain signal lacks synchronizer",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING"
+    ]
+  },
+  {
+    "ID": "ID_516",
+    "Description": "Improper use of casez leads to ambiguous condition matching",
+    "Tag": [
+      "CASEZ_USAGE",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_517",
+    "Description": "Destination bit width is smaller than the source",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "RIGHT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_518",
+    "Description": "Always block lacks reset condition",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_519",
+    "Description": "Buffer inserted to break loop with unused outcome",
+    "Tag": [
+      "COMB_LOOP",
+      "UNUSED_LOGIC",
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_520",
+    "Description": "Conditional expression logic is flawed or redundant",
+    "Tag": [
+      "CONDITION_ISSUE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_521",
+    "Description": "Sequential path includes combinational delay",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_522",
+    "Description": "RTL contains constructs not supported by synthesis tools",
+    "Tag": [
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_523",
+    "Description": "Masked bits in casez result in unreachable conditions",
+    "Tag": [
+      "CASEZ_USAGE",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_524",
+    "Description": "casez construct not suitable for synthesis",
+    "Tag": [
+      "CASEZ_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_525",
+    "Description": "Reset signal applied inconsistently across modules",
+    "Tag": [
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_526",
+    "Description": "Combinational block lacks dynamic behavior",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_527",
+    "Description": "FSM transitions without valid next state",
+    "Tag": [
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_528",
+    "Description": "Cross-domain signal lacks synchronizer",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING"
+    ]
+  },
+  {
+    "ID": "ID_529",
+    "Description": "No transition observed on signal",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_530",
+    "Description": "FSM reaches state not defined in enum",
+    "Tag": [
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_531",
+    "Description": "Incorrect logical operator leads to unreachable branch",
+    "Tag": [
+      "CONDITION_ISSUE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_532",
+    "Description": "Hierarchical port naming not aligned with standards",
+    "Tag": [
+      "MODULE_PORT_PROBLEM",
+      "NAMING_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_533",
+    "Description": "Incomplete sensitivity list leads to inferred latch",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_534",
+    "Description": "Unsafe domain crossing via asynchronous flip-flop",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_535",
+    "Description": "Incorrect assignment type in clocked always block",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_536",
+    "Description": "Always block sensitivity list missing required signals",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_537",
+    "Description": "Synthesis tool identified unused registered logic",
+    "Tag": [
+      "REGISTER_USAGE",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_538",
+    "Description": "Buffer inserted to break loop with unused outcome",
+    "Tag": [
+      "COMB_LOOP",
+      "UNUSED_LOGIC",
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_539",
+    "Description": "Bit width and logic mismatch in conditional",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_540",
+    "Description": "Improper reset logic causes signal to remain constant",
+    "Tag": [
+      "RESET_ISSUE",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_541",
+    "Description": "Width inconsistency between assigned signals",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "RIGHT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_542",
+    "Description": "Floating-point signal declared in module interface",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_543",
+    "Description": "Black box module lacks implementation",
+    "Tag": [
+      "BLACK_BOX"
+    ]
+  },
+  {
+    "ID": "ID_544",
+    "Description": "Initial block used in synthesizable RTL",
+    "Tag": [
+      "INITIAL_BLOCK"
+    ]
+  },
+  {
+    "ID": "ID_545",
+    "Description": "Tool inserted buffer in combinational feedback path",
+    "Tag": [
+      "COMB_LOOP",
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_546",
+    "Description": "Blocking assignment used in FSM next state logic",
+    "Tag": [
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_547",
+    "Description": "Sequential loop detected in always block",
+    "Tag": [
+      "SEQUENTIAL_LOOP"
+    ]
+  },
+  {
+    "ID": "ID_548",
+    "Description": "Black box module lacks port definition",
+    "Tag": [
+      "BLACK_BOX",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_549",
+    "Description": "Flip-flop defined without proper reset control",
+    "Tag": [
+      "RESET_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_550",
+    "Description": "Signal stuck due to missing driver or logic",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_551",
+    "Description": "Missing synchronous reset for register block",
+    "Tag": [
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_552",
+    "Description": "Circular logic path eliminated but does not impact design",
+    "Tag": [
+      "COMB_LOOP",
+      "UNUSED_LOGIC",
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_553",
+    "Description": "Signal assignment results in data loss due to mismatch",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "RIGHT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_554",
+    "Description": "Wire not connected to any output or module port",
+    "Tag": [
+      "WIRE_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_555",
+    "Description": "Dead logic detected by synthesis tool",
+    "Tag": [
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_556",
+    "Description": "Infinite state transition path without exit",
+    "Tag": [
+      "SEQUENTIAL_LOOP"
+    ]
+  },
+  {
+    "ID": "ID_557",
+    "Description": "Improper macro usage leads to synthesis failure",
+    "Tag": [
+      "MACRO_USAGE",
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_558",
+    "Description": "Combinational block with incomplete sensitivity coverage",
+    "Tag": [
+      "LATCH_INFERRED",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_559",
+    "Description": "Port type incompatible with synthesis tools",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_560",
+    "Description": "casez construct not suitable for synthesis",
+    "Tag": [
+      "CASEZ_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_561",
+    "Description": "Real data type used in RTL block",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_562",
+    "Description": "Combinational path results in constant signal",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_563",
+    "Description": "Combinational block lacks dynamic behavior",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_564",
+    "Description": "Floating-point arithmetic not synthesizable",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_565",
+    "Description": "Delay statement used in synthesizable block",
+    "Tag": [
+      "NON_SYNTHESIZABLE",
+      "DELAY_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_566",
+    "Description": "Clock pin not connected in module instantiation",
+    "Tag": [
+      "CLOCK_PIN_ISSUE",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_567",
+    "Description": "Reset signal applied inconsistently across modules",
+    "Tag": [
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_568",
+    "Description": "Floating-point comparison not supported in synthesis",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_569",
+    "Description": "Design enters livelock due to cyclic control logic",
+    "Tag": [
+      "LIVELOCK"
+    ]
+  },
+  {
+    "ID": "ID_570",
+    "Description": "Combinational block lacks default assignment",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_571",
+    "Description": "Latch inferred due to missing signal in sensitivity list",
+    "Tag": [
+      "LATCH_INFERRED",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_572",
+    "Description": "Async reset triggered incorrectly due to conditional misbehavior",
+    "Tag": [
+      "RESET_ISSUE",
+      "CONDITION_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_573",
+    "Description": "Unbounded loop detected in generate block",
+    "Tag": [
+      "LOOP_CONSTRUCT"
+    ]
+  },
+  {
+    "ID": "ID_574",
+    "Description": "Top-level input uses invalid keyword as name",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE",
+      "IO_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_575",
+    "Description": "Reset signal does not release stuck register",
+    "Tag": [
+      "RESET_ISSUE",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_576",
+    "Description": "Naming convention violation using keyword",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_577",
+    "Description": "Nonblocking assignment used in combinational logic",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_578",
+    "Description": "Improper for-loop control in Verilog",
+    "Tag": [
+      "LOOP_CONSTRUCT"
+    ]
+  },
+  {
+    "ID": "ID_579",
+    "Description": "Conflicting conditions using ambiguous operators",
+    "Tag": [
+      "CONDITION_ISSUE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_580",
+    "Description": "Sensitivity list omission resulted in inferred latch",
+    "Tag": [
+      "LATCH_INFERRED",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_581",
+    "Description": "Real number used in input/output port declaration",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_582",
+    "Description": "Macro used in RTL block without proper expansion",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_583",
+    "Description": "FSM condition causes unreachable state",
+    "Tag": [
+      "FSM_PROBLEM",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_584",
+    "Description": "Macro used in procedural block not supported by synthesis",
+    "Tag": [
+      "MACRO_USAGE",
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_585",
+    "Description": "Combinational logic inferred as sequential due to missing sensitivity",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_586",
+    "Description": "Reset fails to initialize signal to expected value",
+    "Tag": [
+      "RESET_ISSUE",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_587",
+    "Description": "Timing control not supported in synthesis flow",
+    "Tag": [
+      "NON_SYNTHESIZABLE",
+      "DELAY_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_588",
+    "Description": "Assignment type mismatch in always block",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_589",
+    "Description": "RTL logic has no effect on circuit outputs",
+    "Tag": [
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_590",
+    "Description": "Concurrent processes block each other without resolution",
+    "Tag": [
+      "DEADLOCK",
+      "SYNCHRONIZATION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_591",
+    "Description": "Nonblocking assignment leads to simulation mismatch",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_592",
+    "Description": "Macro expansion includes non-synthesizable constructs",
+    "Tag": [
+      "MACRO_USAGE",
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_593",
+    "Description": "State machine transitions controlled by conflicting conditions",
+    "Tag": [
+      "FSM_PROBLEM",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_594",
+    "Description": "Non-synthesizable construct detected in RTL",
+    "Tag": [
+      "NON_SYNTHESIZABLE",
+      "DELAY_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_595",
+    "Description": "Timing uncertainty from concurrent assignments",
+    "Tag": [
+      "RACE_CONDITION",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_596",
+    "Description": "Register assigned but never used in output logic",
+    "Tag": [
+      "REGISTER_USAGE",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_597",
+    "Description": "No terminating condition in control flow",
+    "Tag": [
+      "LIVELOCK"
+    ]
+  },
+  {
+    "ID": "ID_598",
+    "Description": "Signal uses camel case instead of snake case",
+    "Tag": [
+      "NAMING_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_599",
+    "Description": "Reset behavior not consistent across flip-flops",
+    "Tag": [
+      "RESET_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_600",
+    "Description": "Wire declared but unused in logic",
+    "Tag": [
+      "WIRE_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_601",
+    "Description": "Missing or misnamed clock input in module interface",
+    "Tag": [
+      "CLOCK_PIN_ISSUE",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_602",
+    "Description": "Sequential element missing asynchronous reset",
+    "Tag": [
+      "RESET_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_603",
+    "Description": "Macro used without proper parameterization",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_604",
+    "Description": "Wire declared but not connected to any logic",
+    "Tag": [
+      "WIRE_USAGE",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_605",
+    "Description": "Sequential block lacks edge sensitivity",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_606",
+    "Description": "Masked bits in casez result in unreachable conditions",
+    "Tag": [
+      "CASEZ_USAGE",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_607",
+    "Description": "Sensitivity list omission resulted in inferred latch",
+    "Tag": [
+      "LATCH_INFERRED",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_608",
+    "Description": "Width of result signal incompatible with source",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH"
+    ]
+  },
+  {
+    "ID": "ID_609",
+    "Description": "IO port named using reserved word",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE",
+      "IO_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_610",
+    "Description": "Latch inferred due to missing signal in sensitivity list",
+    "Tag": [
+      "LATCH_INFERRED",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_611",
+    "Description": "Combinational block with incomplete sensitivity coverage",
+    "Tag": [
+      "LATCH_INFERRED",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_612",
+    "Description": "Multiple conditional assignments on same wire",
+    "Tag": [
+      "MULTIDRIVE"
+    ]
+  },
+  {
+    "ID": "ID_613",
+    "Description": "Deadlock detected due to mutual resource wait",
+    "Tag": [
+      "DEADLOCK"
+    ]
+  },
+  {
+    "ID": "ID_614",
+    "Description": "Improper use of <= in non-clocked logic",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_615",
+    "Description": "Signal updated in parallel blocks without synchronization",
+    "Tag": [
+      "RACE_CONDITION",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_616",
+    "Description": "Black box module lacks port definition",
+    "Tag": [
+      "BLACK_BOX",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_617",
+    "Description": "Unused wire signal in RTL design",
+    "Tag": [
+      "WIRE_USAGE",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_618",
+    "Description": "Dead logic detected by synthesis tool",
+    "Tag": [
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_619",
+    "Description": "Macro used in procedural block not supported by synthesis",
+    "Tag": [
+      "MACRO_USAGE",
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_620",
+    "Description": "Improper use of reserved identifier for signal",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_621",
+    "Description": "RTL loop construct produces unused expressions",
+    "Tag": [
+      "LOOP_CONSTRUCT",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_622",
+    "Description": "Top-level input uses invalid keyword as name",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE",
+      "IO_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_623",
+    "Description": "Port type incompatible with synthesis tools",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_624",
+    "Description": "Unresolved black box instantiation in design hierarchy",
+    "Tag": [
+      "BLACK_BOX",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_625",
+    "Description": "Missing synchronous reset for register block",
+    "Tag": [
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_626",
+    "Description": "Sequential element inferred from always block",
+    "Tag": [
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_627",
+    "Description": "Improper use of casez leads to ambiguous condition matching",
+    "Tag": [
+      "CASEZ_USAGE",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_628",
+    "Description": "Signal name does not comply with naming standards",
+    "Tag": [
+      "NAMING_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_629",
+    "Description": "FSM transitions without valid next state",
+    "Tag": [
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_630",
+    "Description": "FSM contains uninitialized state variable",
+    "Tag": [
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_631",
+    "Description": "Assignment type mismatch in always block",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_632",
+    "Description": "Declared register does not impact functional behavior",
+    "Tag": [
+      "REGISTER_USAGE",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_633",
+    "Description": "Nonblocking assignment used in combinational always block",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_634",
+    "Description": "Improper macro usage leads to synthesis failure",
+    "Tag": [
+      "MACRO_USAGE",
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_635",
+    "Description": "Real number used in input/output port declaration",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_636",
+    "Description": "Operands have mismatched vector sizes",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH"
+    ]
+  },
+  {
+    "ID": "ID_637",
+    "Description": "Missing implementation for declared module",
+    "Tag": [
+      "BLACK_BOX",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_638",
+    "Description": "Nested macros complicate synthesis analysis",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_639",
+    "Description": "Unconnected module port detected",
+    "Tag": [
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_640",
+    "Description": "Floating-point signal declared in module interface",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_641",
+    "Description": "Missing or misnamed clock input in module interface",
+    "Tag": [
+      "CLOCK_PIN_ISSUE",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_642",
+    "Description": "FSM reaches state not defined in enum",
+    "Tag": [
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_643",
+    "Description": "Port type incompatible with synthesis tools",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_644",
+    "Description": "Width inconsistency between assigned signals",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "RIGHT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_645",
+    "Description": "Incorrect assignment type in clocked always block",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_646",
+    "Description": "Nonblocking assignment delays signal update",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_647",
+    "Description": "Conflicting conditions using ambiguous operators",
+    "Tag": [
+      "CONDITION_ISSUE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_648",
+    "Description": "Signal stuck due to missing driver or logic",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_649",
+    "Description": "Signal uses camel case instead of snake case",
+    "Tag": [
+      "NAMING_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_650",
+    "Description": "Improper signal comparison due to size difference",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_651",
+    "Description": "Race condition due to multiple always blocks writing same signal",
+    "Tag": [
+      "RACE_CONDITION",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_652",
+    "Description": "Improper use of <= in non-clocked logic",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_653",
+    "Description": "Sequential behavior affected by blocking semantics",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_654",
+    "Description": "Non-synthesizable behavior detected in procedural logic",
+    "Tag": [
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_655",
+    "Description": "Blocking assignment causes race condition",
+    "Tag": [
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_656",
+    "Description": "Blocking assignment used in clocked always block",
+    "Tag": [
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_657",
+    "Description": "Concurrent blocks unable to proceed due to signal dependency",
+    "Tag": [
+      "DEADLOCK"
+    ]
+  },
+  {
+    "ID": "ID_658",
+    "Description": "Blocking assignment overrides previous value unexpectedly",
+    "Tag": [
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_659",
+    "Description": "Nonblocking assignment used in combinational block",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_660",
+    "Description": "FSM transitions without valid next state",
+    "Tag": [
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_661",
+    "Description": "Blocking assignment used in sequential logic",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_662",
+    "Description": "Combinational path results in constant signal",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_663",
+    "Description": "Combinational loop broken by inferred buffer",
+    "Tag": [
+      "COMB_LOOP",
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_664",
+    "Description": "Reset logic not implemented properly",
+    "Tag": [
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_665",
+    "Description": "No dynamic behavior observed in combinational block",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_666",
+    "Description": "Macro definition includes unsupported syntax",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_667",
+    "Description": "Input port declared but not connected",
+    "Tag": [
+      "IO_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_668",
+    "Description": "Blocking assignment used in sequential logic",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_669",
+    "Description": "Combinational logic produces constant output",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_670",
+    "Description": "Incorrect use of <= in non-clocked block",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_671",
+    "Description": "Improper use of reserved identifier for signal",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_672",
+    "Description": "Improper event control in always block",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_673",
+    "Description": "Assignment causes truncation due to wider source signal",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_674",
+    "Description": "Masked bits in casez result in unreachable conditions",
+    "Tag": [
+      "CASEZ_USAGE",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_675",
+    "Description": "No transition observed on signal",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_676",
+    "Description": "State machine transitions controlled by conflicting conditions",
+    "Tag": [
+      "FSM_PROBLEM",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_677",
+    "Description": "Improper use of = in sequential logic",
+    "Tag": [
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_678",
+    "Description": "Reset logic not implemented properly",
+    "Tag": [
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_679",
+    "Description": "Improper macro usage leads to synthesis failure",
+    "Tag": [
+      "MACRO_USAGE",
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_680",
+    "Description": "Macro hides critical logic from synthesis tool",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_681",
+    "Description": "Blocking assignment leads to unintended priority encoding",
+    "Tag": [
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_682",
+    "Description": "Declared register does not impact functional behavior",
+    "Tag": [
+      "REGISTER_USAGE",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_683",
+    "Description": "No dynamic behavior observed in combinational block",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_684",
+    "Description": "Width inconsistency between assigned signals",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "RIGHT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_685",
+    "Description": "Tool inserted buffer in combinational feedback path",
+    "Tag": [
+      "COMB_LOOP",
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_686",
+    "Description": "RTL contains constructs not supported by synthesis tools",
+    "Tag": [
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_687",
+    "Description": "Circular logic path eliminated but does not impact design",
+    "Tag": [
+      "COMB_LOOP",
+      "UNUSED_LOGIC",
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_688",
+    "Description": "Macro expansion includes non-synthesizable constructs",
+    "Tag": [
+      "MACRO_USAGE",
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_689",
+    "Description": "Port direction mismatch in module instantiation",
+    "Tag": [
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_690",
+    "Description": "Improper use of casez leads to ambiguous condition matching",
+    "Tag": [
+      "CASEZ_USAGE",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_691",
+    "Description": "Missing synchronous reset for register block",
+    "Tag": [
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_692",
+    "Description": "Unresolved black box instantiation in design hierarchy",
+    "Tag": [
+      "BLACK_BOX",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_693",
+    "Description": "Improper for-loop control in Verilog",
+    "Tag": [
+      "LOOP_CONSTRUCT"
+    ]
+  },
+  {
+    "ID": "ID_694",
+    "Description": "Simulation-only construct found in design",
+    "Tag": [
+      "INITIAL_BLOCK"
+    ]
+  },
+  {
+    "ID": "ID_695",
+    "Description": "Improper reset logic causes signal to remain constant",
+    "Tag": [
+      "RESET_ISSUE",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_696",
+    "Description": "Real data type used in RTL block",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_697",
+    "Description": "Unconnected module port detected",
+    "Tag": [
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_698",
+    "Description": "Clock domain crossing handled with single flip-flop",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_699",
+    "Description": "Improper clock signal routing to module port",
+    "Tag": [
+      "CLOCK_PIN_ISSUE",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_700",
+    "Description": "Bit width and logic mismatch in conditional",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_701",
+    "Description": "Wire not connected to any output or module port",
+    "Tag": [
+      "WIRE_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_702",
+    "Description": "Floating-point signal declared in module interface",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_703",
+    "Description": "Signal updated in parallel blocks without synchronization",
+    "Tag": [
+      "RACE_CONDITION",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_704",
+    "Description": "Register assigned but never used in output logic",
+    "Tag": [
+      "REGISTER_USAGE",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_705",
+    "Description": "Improper macro usage in conditional logic",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_706",
+    "Description": "Unbounded loop detected in generate block",
+    "Tag": [
+      "LOOP_CONSTRUCT"
+    ]
+  },
+  {
+    "ID": "ID_707",
+    "Description": "Floating-point arithmetic not synthesizable",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_708",
+    "Description": "Latch inferred due to missing signal in sensitivity list",
+    "Tag": [
+      "LATCH_INFERRED",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_709",
+    "Description": "Missing or misnamed clock input in module interface",
+    "Tag": [
+      "CLOCK_PIN_ISSUE",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_710",
+    "Description": "Conditional expression logic is flawed or redundant",
+    "Tag": [
+      "CONDITION_ISSUE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_711",
+    "Description": "Flip-flop declared with correct edge sensitivity",
+    "Tag": [
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_712",
+    "Description": "Clock signal not routed to flip-flop",
+    "Tag": [
+      "CLOCK_PIN_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_713",
+    "Description": "Blocking assignment causes race condition",
+    "Tag": [
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_714",
+    "Description": "Wider left operand in logical comparison",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_715",
+    "Description": "Unsafe domain crossing via asynchronous flip-flop",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_716",
+    "Description": "Port type incompatible with synthesis tools",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_717",
+    "Description": "FSM transitions into illegal state value",
+    "Tag": [
+      "UNDEF_STATE"
+    ]
+  },
+  {
+    "ID": "ID_718",
+    "Description": "Synth tool warning: initial block detected",
+    "Tag": [
+      "INITIAL_BLOCK"
+    ]
+  },
+  {
+    "ID": "ID_719",
+    "Description": "Deadlock caused by missing ready/valid signal assertion",
+    "Tag": [
+      "DEADLOCK",
+      "SYNCHRONIZATION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_720",
+    "Description": "Multiple conditional assignments on same wire",
+    "Tag": [
+      "MULTIDRIVE"
+    ]
+  },
+  {
+    "ID": "ID_721",
+    "Description": "Cross-domain signal lacks synchronizer",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING"
+    ]
+  },
+  {
+    "ID": "ID_722",
+    "Description": "Concurrent blocks unable to proceed due to signal dependency",
+    "Tag": [
+      "DEADLOCK"
+    ]
+  },
+  {
+    "ID": "ID_723",
+    "Description": "Wire declared but not connected to any logic",
+    "Tag": [
+      "WIRE_USAGE",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_724",
+    "Description": "Clock pin not connected in module instantiation",
+    "Tag": [
+      "CLOCK_PIN_ISSUE",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_725",
+    "Description": "Non-synthesizable construct detected in RTL",
+    "Tag": [
+      "NON_SYNTHESIZABLE",
+      "DELAY_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_726",
+    "Description": "Unresolved module instantiation in netlist",
+    "Tag": [
+      "BLACK_BOX"
+    ]
+  },
+  {
+    "ID": "ID_727",
+    "Description": "Uninitialized FSM state reached post-reset",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_728",
+    "Description": "Looped logic not connected to any output",
+    "Tag": [
+      "LOOP_CONSTRUCT",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_729",
+    "Description": "Improper use of always block leads to reset issues",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_730",
+    "Description": "Timing control not supported in synthesis flow",
+    "Tag": [
+      "NON_SYNTHESIZABLE",
+      "DELAY_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_731",
+    "Description": "Blocking assignment used in clocked always block",
+    "Tag": [
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_732",
+    "Description": "Flip-flop defined without proper reset control",
+    "Tag": [
+      "RESET_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_733",
+    "Description": "Sequential path includes combinational delay",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_734",
+    "Description": "FSM enters unknown state after reset",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_735",
+    "Description": "Reset signal applied inconsistently across modules",
+    "Tag": [
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_736",
+    "Description": "Macro definition includes unsupported syntax",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_737",
+    "Description": "Port declared but not used in module body",
+    "Tag": [
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_738",
+    "Description": "Combinational block with incomplete sensitivity coverage",
+    "Tag": [
+      "LATCH_INFERRED",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_739",
+    "Description": "Event control not clearly defined in always block",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_740",
+    "Description": "Real number declared in procedural logic",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_741",
+    "Description": "Combinational loop broken by inferred buffer",
+    "Tag": [
+      "COMB_LOOP",
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_742",
+    "Description": "Timing control via #delay not synthesizable",
+    "Tag": [
+      "DELAY_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_743",
+    "Description": "casez wildcard causes unintended branch execution",
+    "Tag": [
+      "CASEZ_USAGE",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_744",
+    "Description": "Signal driven by multiple sources",
+    "Tag": [
+      "MULTIDRIVE"
+    ]
+  },
+  {
+    "ID": "ID_745",
+    "Description": "Sequential behavior affected by blocking semantics",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_746",
+    "Description": "Flip-flop behavior not properly defined",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_747",
+    "Description": "Nonblocking assignment used in combinational logic",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_748",
+    "Description": "Incorrect assignment type in clocked always block",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_749",
+    "Description": "Clock pin not connected in module instantiation",
+    "Tag": [
+      "CLOCK_PIN_ISSUE",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_750",
+    "Description": "Improper use of reserved identifier for signal",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_751",
+    "Description": "Blocking assignment used in sequential logic",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_752",
+    "Description": "Concurrent processes block each other without resolution",
+    "Tag": [
+      "DEADLOCK",
+      "SYNCHRONIZATION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_753",
+    "Description": "Signal value does not reflect expected transitions",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_754",
+    "Description": "Improper use of casez leads to ambiguous condition matching",
+    "Tag": [
+      "CASEZ_USAGE",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_755",
+    "Description": "Incorrect assignment type in clocked always block",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_756",
+    "Description": "Loop results do not affect circuit behavior",
+    "Tag": [
+      "LOOP_CONSTRUCT",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_757",
+    "Description": "Unresolved black box instantiation in design hierarchy",
+    "Tag": [
+      "BLACK_BOX",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_758",
+    "Description": "Combinational block lacks dynamic behavior",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_759",
+    "Description": "Real number declared in procedural logic",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_760",
+    "Description": "Masked bits in casez result in unreachable conditions",
+    "Tag": [
+      "CASEZ_USAGE",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_761",
+    "Description": "casez wildcard causes unintended branch execution",
+    "Tag": [
+      "CASEZ_USAGE",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_762",
+    "Description": "Clock signal not routed to flip-flop",
+    "Tag": [
+      "CLOCK_PIN_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_763",
+    "Description": "Deadlock caused by missing ready/valid signal assertion",
+    "Tag": [
+      "DEADLOCK",
+      "SYNCHRONIZATION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_764",
+    "Description": "Detected multi-driver conflict on net",
+    "Tag": [
+      "MULTIDRIVE"
+    ]
+  },
+  {
+    "ID": "ID_765",
+    "Description": "Register assigned but never used in output logic",
+    "Tag": [
+      "REGISTER_USAGE",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_766",
+    "Description": "Macro used in RTL block without proper expansion",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_767",
+    "Description": "Combinational loop detected but result is unused",
+    "Tag": [
+      "COMB_LOOP",
+      "UNUSED_LOGIC",
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_768",
+    "Description": "Nonblocking assignment used in combinational always block",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_769",
+    "Description": "Floating-point arithmetic not synthesizable",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_770",
+    "Description": "casez construct not suitable for synthesis",
+    "Tag": [
+      "CASEZ_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_771",
+    "Description": "Missing clock pin in module definition",
+    "Tag": [
+      "CLOCK_PIN_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_772",
+    "Description": "Identifier uses reserved keyword from Verilog",
+    "Tag": [
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_773",
+    "Description": "Signal remains constant throughout simulation",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_774",
+    "Description": "Declared register does not impact functional behavior",
+    "Tag": [
+      "REGISTER_USAGE",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_775",
+    "Description": "Expression result is not used in any assignment",
+    "Tag": [
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_776",
+    "Description": "Delay statement used in synthesizable block",
+    "Tag": [
+      "NON_SYNTHESIZABLE",
+      "DELAY_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_777",
+    "Description": "Sequential behavior affected by blocking semantics",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_778",
+    "Description": "Reset control depends on flawed condition logic",
+    "Tag": [
+      "RESET_ISSUE",
+      "CONDITION_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_779",
+    "Description": "Sequential block lacks edge sensitivity",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_780",
+    "Description": "Improper reset logic causes signal to remain constant",
+    "Tag": [
+      "RESET_ISSUE",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_781",
+    "Description": "Improper sensitivity list leads to inferred latch",
+    "Tag": [
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_782",
+    "Description": "Improper macro usage leads to synthesis failure",
+    "Tag": [
+      "MACRO_USAGE",
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_783",
+    "Description": "Multiple drivers cause race on signal",
+    "Tag": [
+      "RACE_CONDITION"
+    ]
+  },
+  {
+    "ID": "ID_784",
+    "Description": "Incomplete sensitivity list leads to inferred latch",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_785",
+    "Description": "Blocking assignment used in sequential logic",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_786",
+    "Description": "Bit width and logic mismatch in conditional",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_787",
+    "Description": "Declared register does not impact functional behavior",
+    "Tag": [
+      "REGISTER_USAGE",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_788",
+    "Description": "Black box module lacks implementation",
+    "Tag": [
+      "BLACK_BOX"
+    ]
+  },
+  {
+    "ID": "ID_789",
+    "Description": "Combinational logic produces constant output",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_790",
+    "Description": "Poorly written FSM logic leads to conditional dead ends",
+    "Tag": [
+      "FSM_PROBLEM",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_791",
+    "Description": "Real number used in input/output port declaration",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_792",
+    "Description": "Nonblocking assignment used in combinational logic",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_793",
+    "Description": "Reset logic not properly handled in always construct",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_794",
+    "Description": "Port type incompatible with synthesis tools",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_795",
+    "Description": "Conditional expression logic is flawed or redundant",
+    "Tag": [
+      "CONDITION_ISSUE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_796",
+    "Description": "Combinational loop detected but result is unused",
+    "Tag": [
+      "COMB_LOOP",
+      "UNUSED_LOGIC",
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_797",
+    "Description": "Cross-domain signal lacks synchronizer",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING"
+    ]
+  },
+  {
+    "ID": "ID_798",
+    "Description": "Width of result signal incompatible with source",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH"
+    ]
+  },
+  {
+    "ID": "ID_799",
+    "Description": "State machine stuck in loop without progressing",
+    "Tag": [
+      "LIVELOCK",
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_800",
+    "Description": "Masked bits in casez result in unreachable conditions",
+    "Tag": [
+      "CASEZ_USAGE",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_801",
+    "Description": "Buffer inserted to break loop with unused outcome",
+    "Tag": [
+      "COMB_LOOP",
+      "UNUSED_LOGIC",
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_802",
+    "Description": "Bit width mismatch detected in assignment",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH"
+    ]
+  },
+  {
+    "ID": "ID_803",
+    "Description": "Clock domain crossing detected without safe mechanism",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING"
+    ]
+  },
+  {
+    "ID": "ID_804",
+    "Description": "Wire not connected to any output or module port",
+    "Tag": [
+      "WIRE_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_805",
+    "Description": "Unconnected output port in module",
+    "Tag": [
+      "IO_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_806",
+    "Description": "Sequential element inferred from always block",
+    "Tag": [
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_807",
+    "Description": "Feedback loop in sequential logic causes hazard",
+    "Tag": [
+      "SEQUENTIAL_LOOP"
+    ]
+  },
+  {
+    "ID": "ID_808",
+    "Description": "Improper event control in always block",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_809",
+    "Description": "Signal updated in conflicting always blocks",
+    "Tag": [
+      "RACE_CONDITION"
+    ]
+  },
+  {
+    "ID": "ID_810",
+    "Description": "FSM lacks default transition for illegal state",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE"
+    ]
+  },
+  {
+    "ID": "ID_811",
+    "Description": "Wire declared but not connected to any logic",
+    "Tag": [
+      "WIRE_USAGE",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_812",
+    "Description": "Combinational path results in constant signal",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_813",
+    "Description": "Left-hand operand has greater bit width than right",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_814",
+    "Description": "Assignment type mismatch in always block",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_815",
+    "Description": "Port direction mismatch in module instantiation",
+    "Tag": [
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_816",
+    "Description": "Signal stuck due to missing input change",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_817",
+    "Description": "Improper use of <= in non-clocked logic",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_818",
+    "Description": "No exit condition defined for FSM livelock scenario",
+    "Tag": [
+      "LIVELOCK",
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_819",
+    "Description": "Unused wire signal in RTL design",
+    "Tag": [
+      "WIRE_USAGE",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_820",
+    "Description": "Signal updated in parallel blocks without synchronization",
+    "Tag": [
+      "RACE_CONDITION",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_821",
+    "Description": "Nonblocking assignment used in combinational always block",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_822",
+    "Description": "Operands have mismatched vector sizes",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH"
+    ]
+  },
+  {
+    "ID": "ID_823",
+    "Description": "Design enters livelock due to cyclic control logic",
+    "Tag": [
+      "LIVELOCK"
+    ]
+  },
+  {
+    "ID": "ID_824",
+    "Description": "Clock signal not routed to flip-flop",
+    "Tag": [
+      "CLOCK_PIN_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_825",
+    "Description": "Process loops indefinitely without external trigger",
+    "Tag": [
+      "LIVELOCK"
+    ]
+  },
+  {
+    "ID": "ID_826",
+    "Description": "Clock domain crossing detected without safe mechanism",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING"
+    ]
+  },
+  {
+    "ID": "ID_827",
+    "Description": "Buffer inserted to break loop with unused outcome",
+    "Tag": [
+      "COMB_LOOP",
+      "UNUSED_LOGIC",
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_828",
+    "Description": "Bit width mismatch detected in assignment",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH"
+    ]
+  },
+  {
+    "ID": "ID_829",
+    "Description": "casez wildcard causes unintended branch execution",
+    "Tag": [
+      "CASEZ_USAGE",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_830",
+    "Description": "State machine transitions controlled by conflicting conditions",
+    "Tag": [
+      "FSM_PROBLEM",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_831",
+    "Description": "Top-level IO missing proper connection",
+    "Tag": [
+      "IO_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_832",
+    "Description": "Deadlock detected due to mutual resource wait",
+    "Tag": [
+      "DEADLOCK"
+    ]
+  },
+  {
+    "ID": "ID_833",
+    "Description": "Looped logic not connected to any output",
+    "Tag": [
+      "LOOP_CONSTRUCT",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_834",
+    "Description": "Assignment type mismatch in always block",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_835",
+    "Description": "Unused wire signal in RTL design",
+    "Tag": [
+      "WIRE_USAGE",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_836",
+    "Description": "Reset logic fails to initialize FSM state",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_837",
+    "Description": "Improper use of casez leads to ambiguous condition matching",
+    "Tag": [
+      "CASEZ_USAGE",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_838",
+    "Description": "Deadlock caused by missing ready/valid signal assertion",
+    "Tag": [
+      "DEADLOCK",
+      "SYNCHRONIZATION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_839",
+    "Description": "Underscore missing in hierarchical signal name",
+    "Tag": [
+      "NAMING_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_840",
+    "Description": "Blocking assignment used in clocked always block",
+    "Tag": [
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_841",
+    "Description": "Dead logic detected by synthesis tool",
+    "Tag": [
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_842",
+    "Description": "Reset behavior not consistent across flip-flops",
+    "Tag": [
+      "RESET_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_843",
+    "Description": "Combinational path includes unintended feedback loop",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_844",
+    "Description": "IO port named using reserved word",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE",
+      "IO_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_845",
+    "Description": "Concurrent processes block each other without resolution",
+    "Tag": [
+      "DEADLOCK",
+      "SYNCHRONIZATION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_846",
+    "Description": "Macro used in procedural block not supported by synthesis",
+    "Tag": [
+      "MACRO_USAGE",
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_847",
+    "Description": "FSM transitions without valid next state",
+    "Tag": [
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_848",
+    "Description": "Reset signal does not release stuck register",
+    "Tag": [
+      "RESET_ISSUE",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_849",
+    "Description": "Combinational output depends on uninitialized signal",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_850",
+    "Description": "Combinational block with incomplete sensitivity coverage",
+    "Tag": [
+      "LATCH_INFERRED",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_851",
+    "Description": "Incorrect assignment type in clocked always block",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT",
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_852",
+    "Description": "Module interface uses inconsistent signal naming",
+    "Tag": [
+      "MODULE_PORT_PROBLEM",
+      "NAMING_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_853",
+    "Description": "Conditional reset logic on flip-flop fails under certain inputs",
+    "Tag": [
+      "RESET_ISSUE",
+      "CONDITION_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_854",
+    "Description": "Combinational path results in constant signal",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_855",
+    "Description": "Improper use of <= in non-clocked logic",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_856",
+    "Description": "Feedback loop in sequential logic causes hazard",
+    "Tag": [
+      "SEQUENTIAL_LOOP"
+    ]
+  },
+  {
+    "ID": "ID_857",
+    "Description": "No output change observed in combinational logic",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_858",
+    "Description": "Combinational block lacks dynamic behavior",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_859",
+    "Description": "Nonblocking assignment delays signal update",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_860",
+    "Description": "Next state logic does not handle all possible cases",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE"
+    ]
+  },
+  {
+    "ID": "ID_861",
+    "Description": "Loop construct does not converge in RTL",
+    "Tag": [
+      "LOOP_CONSTRUCT"
+    ]
+  },
+  {
+    "ID": "ID_862",
+    "Description": "Circular logic path eliminated but does not impact design",
+    "Tag": [
+      "COMB_LOOP",
+      "UNUSED_LOGIC",
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_863",
+    "Description": "Process loops indefinitely without external trigger",
+    "Tag": [
+      "LIVELOCK"
+    ]
+  },
+  {
+    "ID": "ID_864",
+    "Description": "Unresolved module instantiation in netlist",
+    "Tag": [
+      "BLACK_BOX"
+    ]
+  },
+  {
+    "ID": "ID_865",
+    "Description": "Improper reset logic causes signal to remain constant",
+    "Tag": [
+      "RESET_ISSUE",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_866",
+    "Description": "Synth tool warning: initial block detected",
+    "Tag": [
+      "INITIAL_BLOCK"
+    ]
+  },
+  {
+    "ID": "ID_867",
+    "Description": "Conditional expression logic is flawed or redundant",
+    "Tag": [
+      "CONDITION_ISSUE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_868",
+    "Description": "Unconnected output port in module",
+    "Tag": [
+      "IO_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_869",
+    "Description": "RTL loop construct produces unused expressions",
+    "Tag": [
+      "LOOP_CONSTRUCT",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_870",
+    "Description": "No dynamic behavior observed in combinational block",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_871",
+    "Description": "Top-level input uses invalid keyword as name",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE",
+      "IO_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_872",
+    "Description": "Improper sensitivity list leads to inferred latch",
+    "Tag": [
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_873",
+    "Description": "Width of result signal incompatible with source",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH"
+    ]
+  },
+  {
+    "ID": "ID_874",
+    "Description": "FSM contains uninitialized state variable",
+    "Tag": [
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_875",
+    "Description": "Improper macro usage leads to synthesis failure",
+    "Tag": [
+      "MACRO_USAGE",
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_876",
+    "Description": "Improper macro usage in conditional logic",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_877",
+    "Description": "Always block lacks reset condition",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_878",
+    "Description": "Infinite state transition path without exit",
+    "Tag": [
+      "SEQUENTIAL_LOOP"
+    ]
+  },
+  {
+    "ID": "ID_879",
+    "Description": "No output change observed in combinational logic",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_880",
+    "Description": "Missing or misnamed clock input in module interface",
+    "Tag": [
+      "CLOCK_PIN_ISSUE",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_881",
+    "Description": "Signal updated in parallel blocks without synchronization",
+    "Tag": [
+      "RACE_CONDITION",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_882",
+    "Description": "Real number declared in procedural logic",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_883",
+    "Description": "Destination bit width is smaller than the source",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "RIGHT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_884",
+    "Description": "Signal remains constant throughout simulation",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_885",
+    "Description": "casez wildcard causes unintended branch execution",
+    "Tag": [
+      "CASEZ_USAGE",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_886",
+    "Description": "Clock domain crossing detected without safe mechanism",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING"
+    ]
+  },
+  {
+    "ID": "ID_887",
+    "Description": "Detected multi-driver conflict on net",
+    "Tag": [
+      "MULTIDRIVE"
+    ]
+  },
+  {
+    "ID": "ID_888",
+    "Description": "No transition observed on signal",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_889",
+    "Description": "Missing implementation for declared module",
+    "Tag": [
+      "BLACK_BOX",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_890",
+    "Description": "Improper use of always block leads to reset issues",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_891",
+    "Description": "Real number used in input/output port declaration",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_892",
+    "Description": "Missing synchronous reset for register block",
+    "Tag": [
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_893",
+    "Description": "Assignment type mismatch in always block",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_894",
+    "Description": "Naming convention violation using keyword",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_895",
+    "Description": "Bit width and logic mismatch in conditional",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE",
+      "LOGICAL_OPERATOR"
+    ]
+  },
+  {
+    "ID": "ID_896",
+    "Description": "Unbounded loop detected in generate block",
+    "Tag": [
+      "LOOP_CONSTRUCT"
+    ]
+  },
+  {
+    "ID": "ID_897",
+    "Description": "Unconnected output port in module",
+    "Tag": [
+      "IO_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_898",
+    "Description": "Improper use of reserved identifier for signal",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_899",
+    "Description": "Signal width mismatch detected during assignment",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_900",
+    "Description": "Assignment causes truncation due to wider source signal",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_901",
+    "Description": "Unresolved module instantiation in netlist",
+    "Tag": [
+      "BLACK_BOX"
+    ]
+  },
+  {
+    "ID": "ID_902",
+    "Description": "Clock input not synchronized across domains",
+    "Tag": [
+      "CLOCK_PIN_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_903",
+    "Description": "Input port declared but not connected",
+    "Tag": [
+      "IO_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_904",
+    "Description": "Left-hand operand has greater bit width than right",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_905",
+    "Description": "Blocking assignment used in clocked always block",
+    "Tag": [
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_906",
+    "Description": "Reset logic not implemented properly",
+    "Tag": [
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_907",
+    "Description": "Signal assignment results in data loss due to mismatch",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "RIGHT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_908",
+    "Description": "RTL loop construct produces unused expressions",
+    "Tag": [
+      "LOOP_CONSTRUCT",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_909",
+    "Description": "Port direction mismatch in module instantiation",
+    "Tag": [
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_910",
+    "Description": "Next state logic does not handle all possible cases",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE"
+    ]
+  },
+  {
+    "ID": "ID_911",
+    "Description": "Improper use of = in sequential logic",
+    "Tag": [
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_912",
+    "Description": "Wildcard bits in casez create ambiguous matches",
+    "Tag": [
+      "CASEZ_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_913",
+    "Description": "Real data type used in RTL block",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_914",
+    "Description": "Loop construct does not converge in RTL",
+    "Tag": [
+      "LOOP_CONSTRUCT"
+    ]
+  },
+  {
+    "ID": "ID_915",
+    "Description": "Module name is a reserved SystemVerilog word",
+    "Tag": [
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_916",
+    "Description": "FSM reaches state not defined in enum",
+    "Tag": [
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_917",
+    "Description": "Macro expansion leads to undefined behavior",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_918",
+    "Description": "Improper use of <= in non-clocked logic",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_919",
+    "Description": "Wire not connected to any output or module port",
+    "Tag": [
+      "WIRE_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_920",
+    "Description": "Nonblocking assignment used in combinational always block",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_921",
+    "Description": "Flop used for crossing clock domains without sync",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_922",
+    "Description": "Improper reset logic causes signal to remain constant",
+    "Tag": [
+      "RESET_ISSUE",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_923",
+    "Description": "D flip-flop used for timing alignment",
+    "Tag": [
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_924",
+    "Description": "Sequential loop detected in always block",
+    "Tag": [
+      "SEQUENTIAL_LOOP"
+    ]
+  },
+  {
+    "ID": "ID_925",
+    "Description": "Real type used in procedural assignment",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_926",
+    "Description": "Nested macros complicate synthesis analysis",
+    "Tag": [
+      "MACRO_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_927",
+    "Description": "Deadlock detected due to mutual resource wait",
+    "Tag": [
+      "DEADLOCK"
+    ]
+  },
+  {
+    "ID": "ID_928",
+    "Description": "Redundant buffer found in combinational path",
+    "Tag": [
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_929",
+    "Description": "Signal stuck due to missing driver or logic",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_930",
+    "Description": "Multiple drivers cause race on signal",
+    "Tag": [
+      "RACE_CONDITION"
+    ]
+  },
+  {
+    "ID": "ID_931",
+    "Description": "Blocking assignment leads to unintended priority encoding",
+    "Tag": [
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_932",
+    "Description": "Signal width mismatch detected during assignment",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "LEFT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_933",
+    "Description": "Wire not connected to any output or module port",
+    "Tag": [
+      "WIRE_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_934",
+    "Description": "No output change observed in combinational logic",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_935",
+    "Description": "Incorrect use of <= in non-clocked block",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_936",
+    "Description": "Combinational output depends on uninitialized signal",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_937",
+    "Description": "Port type incompatible with synthesis tools",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_938",
+    "Description": "Deadlock detected due to mutual resource wait",
+    "Tag": [
+      "DEADLOCK"
+    ]
+  },
+  {
+    "ID": "ID_939",
+    "Description": "FSM enters unknown state after reset",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_940",
+    "Description": "Black box module lacks port definition",
+    "Tag": [
+      "BLACK_BOX",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_941",
+    "Description": "Macro used in procedural block not supported by synthesis",
+    "Tag": [
+      "MACRO_USAGE",
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_942",
+    "Description": "Combinational path results in constant signal",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_943",
+    "Description": "No transition observed on signal",
+    "Tag": [
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_944",
+    "Description": "State machine transitions controlled by conflicting conditions",
+    "Tag": [
+      "FSM_PROBLEM",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_945",
+    "Description": "Reset control depends on flawed condition logic",
+    "Tag": [
+      "RESET_ISSUE",
+      "CONDITION_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_946",
+    "Description": "Incomplete event control in always block",
+    "Tag": [
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_947",
+    "Description": "Unresolved black box instantiation in design hierarchy",
+    "Tag": [
+      "BLACK_BOX",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_948",
+    "Description": "Sensitivity list omission resulted in inferred latch",
+    "Tag": [
+      "LATCH_INFERRED",
+      "SEN_LIST"
+    ]
+  },
+  {
+    "ID": "ID_949",
+    "Description": "Cross-domain signal lacks synchronizer",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING"
+    ]
+  },
+  {
+    "ID": "ID_950",
+    "Description": "Nonblocking assignment used in combinational logic",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_951",
+    "Description": "Sequential block lacks edge sensitivity",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_952",
+    "Description": "Reset signal does not release stuck register",
+    "Tag": [
+      "RESET_ISSUE",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_953",
+    "Description": "Wire declared but not connected to any logic",
+    "Tag": [
+      "WIRE_USAGE",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_954",
+    "Description": "Module name is a reserved SystemVerilog word",
+    "Tag": [
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_955",
+    "Description": "casez wildcard causes unintended branch execution",
+    "Tag": [
+      "CASEZ_USAGE",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_956",
+    "Description": "Sequential logic updated outside clock event",
+    "Tag": [
+      "SEQUENTIAL_CIRCUIT"
+    ]
+  },
+  {
+    "ID": "ID_957",
+    "Description": "Clock signal not routed to flip-flop",
+    "Tag": [
+      "CLOCK_PIN_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_958",
+    "Description": "Signal assignment results in data loss due to mismatch",
+    "Tag": [
+      "BIT_WIDTH_MISMATCH",
+      "RIGHT_BIT_MORE"
+    ]
+  },
+  {
+    "ID": "ID_959",
+    "Description": "Reset behavior not consistent across flip-flops",
+    "Tag": [
+      "RESET_ISSUE",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_960",
+    "Description": "Floating-point signal declared in module interface",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_961",
+    "Description": "Blocking assignment used in clocked always block",
+    "Tag": [
+      "BLOCKING_ASSIGNMENT"
+    ]
+  },
+  {
+    "ID": "ID_962",
+    "Description": "Keyword misused as signal name",
+    "Tag": [
+      "RESERVED_KEYWORD_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_963",
+    "Description": "Multiple conditional assignments on same wire",
+    "Tag": [
+      "MULTIDRIVE"
+    ]
+  },
+  {
+    "ID": "ID_964",
+    "Description": "Unsafe domain crossing via asynchronous flip-flop",
+    "Tag": [
+      "CLOCK_DOMAIN_CROSSING",
+      "FLIP_FLOP"
+    ]
+  },
+  {
+    "ID": "ID_965",
+    "Description": "No terminating condition in control flow",
+    "Tag": [
+      "LIVELOCK"
+    ]
+  },
+  {
+    "ID": "ID_966",
+    "Description": "Reset fails to initialize signal to expected value",
+    "Tag": [
+      "RESET_ISSUE",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_967",
+    "Description": "Nonblocking assignment used in combinational always block",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_968",
+    "Description": "Delay statement used in synthesizable block",
+    "Tag": [
+      "NON_SYNTHESIZABLE",
+      "DELAY_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_969",
+    "Description": "Masked bits in casez result in unreachable conditions",
+    "Tag": [
+      "CASEZ_USAGE",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_970",
+    "Description": "Missing synchronous reset for register block",
+    "Tag": [
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_971",
+    "Description": "Combinational logic produces constant output",
+    "Tag": [
+      "COMBINATIONAL_CIRCUIT",
+      "STUCK_SIGNAL"
+    ]
+  },
+  {
+    "ID": "ID_972",
+    "Description": "Clock input not connected in top-level design",
+    "Tag": [
+      "CLOCK_PIN_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_973",
+    "Description": "Always block missing edge specification",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_974",
+    "Description": "IO port named using reserved word",
+    "Tag": [
+      "NAMING_ISSUE",
+      "RESERVED_KEYWORD_USAGE",
+      "IO_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_975",
+    "Description": "Circular logic path eliminated but does not impact design",
+    "Tag": [
+      "COMB_LOOP",
+      "UNUSED_LOGIC",
+      "BUFFER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_976",
+    "Description": "Clock pin not connected in module instantiation",
+    "Tag": [
+      "CLOCK_PIN_ISSUE",
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_977",
+    "Description": "Synth tool warning: initial block detected",
+    "Tag": [
+      "INITIAL_BLOCK"
+    ]
+  },
+  {
+    "ID": "ID_978",
+    "Description": "Poorly written FSM logic leads to conditional dead ends",
+    "Tag": [
+      "FSM_PROBLEM",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_979",
+    "Description": "Loop results do not affect circuit behavior",
+    "Tag": [
+      "LOOP_CONSTRUCT",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_980",
+    "Description": "FSM reaches state not defined in enum",
+    "Tag": [
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_981",
+    "Description": "Sequential loop detected in always block",
+    "Tag": [
+      "SEQUENTIAL_LOOP"
+    ]
+  },
+  {
+    "ID": "ID_982",
+    "Description": "FSM condition causes unreachable state",
+    "Tag": [
+      "FSM_PROBLEM",
+      "CONDITION_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_983",
+    "Description": "Real number used in input/output port declaration",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_984",
+    "Description": "Reset logic fails to initialize FSM state",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_985",
+    "Description": "Looped logic not connected to any output",
+    "Tag": [
+      "LOOP_CONSTRUCT",
+      "UNUSED_LOGIC"
+    ]
+  },
+  {
+    "ID": "ID_986",
+    "Description": "Port type incompatible with synthesis tools",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_987",
+    "Description": "Floating-point signal declared in module interface",
+    "Tag": [
+      "IO_PORT_PROBLEM",
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_988",
+    "Description": "Improper always_comb used in place of always_ff",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_989",
+    "Description": "Uninitialized FSM state reached post-reset",
+    "Tag": [
+      "FSM_PROBLEM",
+      "UNDEF_STATE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_990",
+    "Description": "Reset logic not properly handled in always construct",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_991",
+    "Description": "RTL contains constructs not supported by synthesis tools",
+    "Tag": [
+      "NON_SYNTHESIZABLE"
+    ]
+  },
+  {
+    "ID": "ID_992",
+    "Description": "Clock signal not routed to flip-flop",
+    "Tag": [
+      "CLOCK_PIN_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_993",
+    "Description": "No exit condition defined for FSM livelock scenario",
+    "Tag": [
+      "LIVELOCK",
+      "FSM_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_994",
+    "Description": "Improper use of always block leads to reset issues",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE",
+      "RESET_ISSUE"
+    ]
+  },
+  {
+    "ID": "ID_995",
+    "Description": "Event control not clearly defined in always block",
+    "Tag": [
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_996",
+    "Description": "Port declared but not used in module body",
+    "Tag": [
+      "MODULE_PORT_PROBLEM"
+    ]
+  },
+  {
+    "ID": "ID_997",
+    "Description": "Floating-point comparison not supported in synthesis",
+    "Tag": [
+      "REAL_NUMBER_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_998",
+    "Description": "Improper use of <= in non-clocked logic",
+    "Tag": [
+      "NONBLOCKING_ASSIGNMENT",
+      "ALWAYS_CONSTRUCT_USAGE"
+    ]
+  },
+  {
+    "ID": "ID_999",
+    "Description": "No terminating condition in control flow",
+    "Tag": [
+      "LIVELOCK"
+    ]
+  },
+  {
+    "ID": "ID_1000",
+    "Description": "Missing clock pin in module definition",
+    "Tag": [
+      "CLOCK_PIN_ISSUE"
+    ]
+  }
+]
